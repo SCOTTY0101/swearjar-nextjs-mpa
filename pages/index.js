@@ -3,11 +3,14 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 const myHomePage = () => {
-  return <h3> welcome to building swearjar on nextjs</h3>
+  return <h3> building swearjar on nextjs</h3>
 }
 
 export default myHomePage
 
+
+
+// commented out export default function Home() {
  function Home() {
   return (
     <div className={styles.container}>
