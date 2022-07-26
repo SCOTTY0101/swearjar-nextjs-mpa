@@ -2,7 +2,13 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
-export default function Home() {
+const myHomePage = () => {
+  return <h3> welcome to building swearjar on nextjs</h3>
+}
+
+export default myHomePage
+
+ function Home() {
   return (
     <div className={styles.container}>
       <Head>
