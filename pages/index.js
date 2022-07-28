@@ -5,11 +5,12 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div>
-       <Head /> 
+       <Head> 
         <title>SwearJar</title>
         <meta name='keywords' content='nextjs, webapps, programming, front end'/>
-        <h1> Building swearjar website with nextjs</h1>
 
+      </Head>
+      <h1> Building swearjar website with nextjs</h1>
     </div>
   )
 }
