@@ -1,5 +1,5 @@
-import React from 'react'
-
+//import React from 'react'
+import Link from 'next/link'
 import styles from '../styles/Nav.module.css'
 
 
@@ -7,15 +7,15 @@ export default function Nav() {
     return (
         <div>
             <nav className={styles.nav}>
-                <ul className={styles.ul}>
+                <ul>
                     <li>
-                        home
+                        <Link href='/'>Home</Link>
                     </li>
                     <li>
-                        About
+                        <Link href='/about'>About</Link>
                     </li>
                     <li>
-                        Blog
+                        <Link href='/blog'>Blog</Link>
                     </li>
                 </ul>
             </nav>        
