@@ -9,8 +9,6 @@ export default function blog() {
             </Head>
             <h1>A blog about who I am and what I do at swearjar.</h1>
        </div>
-
-
     
     )
 }

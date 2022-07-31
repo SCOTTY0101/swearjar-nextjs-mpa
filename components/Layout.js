@@ -8,7 +8,6 @@ const layout = ({children}) => {
         <Nav />
         <div className={styles.container}>
             <main className={styles.main}>
-            <h1>This text shows up on all pages.</h1>
                 {children}
             </main>
         </div> 
