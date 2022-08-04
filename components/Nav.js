@@ -20,9 +20,10 @@ export default function Nav() {
                     <li>
                         <Link href='/blog'>Blog</Link>
                     </li>
-                    <li>
+                    <li id="gitNav">
                         <a href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
-                        <Image id="gitIcon" src={gitIogo} alt="github click link" width='32' height='32' />
+                        {/*<Image id="gitIcon" src={gitIogo} alt="github click link" width='32' height='32' />*/}
+                        gitHub
                         </a>
                     </li>
                 </ul>
