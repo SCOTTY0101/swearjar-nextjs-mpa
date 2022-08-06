@@ -2,6 +2,8 @@
 import Link from 'next/link'
 import Image from 'next/image'
 import gitIogo from '../public/Images/github.svg';
+import linkedinLogo from '../public/Images/linkedin.svg';
+import SJnavLogo from '../public/Images/favicon.ico';
 //import gitIogo from '../Assets/Images/github.svg';
 import styles from '../styles/Nav.module.css'
 
@@ -11,6 +13,8 @@ export default function Nav() {
         <div>
             <nav className={styles.nav}>
                 <ul>
+                <div className="logo"><Image src={SJnavLogo} alt="sJs" width='32' height='32'/></div> 
+
                     <li>
                         <Link href='/'>Home</Link>
                     </li>
@@ -20,12 +24,18 @@ export default function Nav() {
                     <li>
                         <Link href='/blog'>Blog</Link>
                     </li>
-                    <li id="gitNav">
-                        <a href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
-                        {/*<Image id="gitIcon" src={gitIogo} alt="github click link" width='32' height='32' />*/}
-                        gitHub
-                        </a>
-                    </li>
+                    
+                    <li>
+              <a href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">
+              <Image src={linkedinLogo} alt="LinkedIn logo"/>
+              </a>
+            </li>
+            <li>
+              <a href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
+              <Image id="gitIcon" src={gitIogo} alt="github click link"/>
+              </a>
+            </li>
+
                 </ul>
             </nav>        
         
