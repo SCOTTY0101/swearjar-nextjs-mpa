@@ -24,7 +24,6 @@ export default function Nav() {
                     <li>
                         <Link href='/blog'>Blog</Link>
                     </li>
-                    
                     <li>
               <a href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">
               <Image src={linkedinLogo} alt="LinkedIn logo"/>
