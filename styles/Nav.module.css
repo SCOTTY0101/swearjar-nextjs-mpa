@@ -18,12 +18,13 @@
 
 .nav ul li a {
     margin: 0.6rem 1rem;
+    padding: 0.4rem;
 }
-/*
+
 .nav ul li a:hover
  {
-    padding: 0.4rem;
+    
     box-shadow: 0.2rem 0.2rem 0.3rem #888;
 }
 
-*/
+
