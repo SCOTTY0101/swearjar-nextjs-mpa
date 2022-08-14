@@ -1,16 +1,16 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import article from '../styles/Article.module.css'
+import articleStyles from '../styles/Article.module.css'
 import bne from '../public/Images/SouthBank30-12-21.jpeg'
-import awsLogo from '../public/Images/cloud.svg';
-import reactLogo from '../public/Images/reactImg.ico';
-import ball8Logo from '../public/Images/ball.png';
-import SJsponceLogo from '../public/Images/favicon-32x32.png';
+import awsLogo from '../public/Images/cloud.svg'
+import reactLogo from '../public/Images/reactImg.ico'
+import ball8Logo from '../public/Images/ball.png'
+import SJsponceLogo from '../public/Images/favicon-32x32.png'
 //import colourBtn from './ColourBtn.js';
 //import resetBtn from './RestBtn';
-import Magic from '../pages/magicBall.js';
+import Magic from '../pages/magicBall.js'
 
-import styles from '../styles/Home.module.css'
+//import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
@@ -22,7 +22,7 @@ export default function Home() {
 
       </Head>
       <h1 className="h1"> Building swearjar website with nextjs</h1>
-      <article className="article">
+      <article className={articleStyles.art}>
       <div className="article-container">
         <p>Front-End website for Development testing and Production.<span className="br"></span>
         Server sponcership available with PayPal to have company name added to the website credits.</p><span className="br"></span>
@@ -49,7 +49,7 @@ export default function Home() {
     </article>
 
 
-    <article className="article">
+    <article className={articleStyles.art}>
       <div className="article-container">                 
         <p><b>Website running the React UI component library. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
         <span className="br">
@@ -72,7 +72,7 @@ export default function Home() {
 
     <hr className="hr"></hr>
 
-    <article className="article">
+    <article className={articleStyles.art}>
       <div className="article-container">
         <h2 className="h2">Testing React and JavaScript via DOM</h2>
         <Image className="ball" src={ball8Logo}  alt="magic decision ball" />

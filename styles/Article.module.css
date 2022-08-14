@@ -1,3 +1,16 @@
+.art {
+  height: 100vh;
+  text-align: center;
+    padding: 1m;
+    background-color: #00E6F6;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 1.3rem;
+}
+
+
 #network {
     height: 10rem;
   }
