@@ -40,7 +40,7 @@
     margin: 0.6rem;
   
   }
-  a {
+  .a {
     text-decoration: none;
   }
   
@@ -52,13 +52,14 @@
     margin-right: 8rem;
   }
   
-  h2, h3  {
+  .h2,
+  .h3  {
     border-left: solid 0.3rem orange;
     margin: 1rem;
     margin-left: 8rem;
     margin-right: 8rem;
   }
-  hr {
+  .hr {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
     margin-left: 8rem;
@@ -70,7 +71,7 @@
     height: auto;
     object-fit: contain;
   }
-  button { 
+  .button { 
     background-color: #888;
     color: #000;
     font-size: 1em;
@@ -94,7 +95,7 @@
       to {background-position: 0% 0%;}
     }
   
-  button:hover {
+  .button:hover {
     opacity: 1;
   }
   
@@ -107,7 +108,7 @@
   }
   
   #bne {
-    background-image: url(../Assets/Images/SouthBank30-12-21.jpeg);
+    background-image: url(../public/Images/SouthBank30-12-21.jpeg);
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;

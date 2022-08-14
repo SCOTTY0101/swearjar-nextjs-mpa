@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
-//import article from '../styles/Article.module.css'
-import aswLogo from '../public/Images/cloud.svg';
+import article from '../styles/Article.module.css'
+import bne from '../public/Images/SouthBank30-12-21.jpeg'
+import awsLogo from '../public/Images/cloud.svg';
 import reactLogo from '../public/Images/reactImg.ico';
 import ball8Logo from '../public/Images/ball.png';
 import SJsponceLogo from '../public/Images/favicon-32x32.png';
@@ -20,7 +21,7 @@ export default function Home() {
         <meta name='keywords' content='nextjs, webapps, programming, front end'/>
 
       </Head>
-      <h1> Building swearjar website with nextjs</h1>
+      <h1 className="h1"> Building swearjar website with nextjs</h1>
       <article className="article">
       <div className="article-container">
         <p>Front-End website for Development testing and Production.<span className="br"></span>
@@ -38,8 +39,8 @@ export default function Home() {
         Running on HTTPS (SSL) secure connection on port 443.<span className="br"></span>
         2022 will also see the website evolve with new software added.<span className="br"></span>
         <b>Click the cloud to visit AWS console.</b><span className="br"></span>
-        <button><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer">
-        <Image src={aswLogo} alt="cloud" id="xs-cloud"/></a></button><span className="br"></span>
+        <button className="button"><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer">
+        <Image src={awsLogo} alt="cloud" id="xs-cloud"/></a></button><span className="br"></span>
         <b>Working with all things JavaScript to understand Full Stack development.</b><span className="br"></span>
         Incorporating the MERN stack into the website (MongoDB, Express, React, NodeJS) <span className="br"></span>
         and implementing Design Patterns in the JavaScript code. 
@@ -52,7 +53,7 @@ export default function Home() {
       <div className="article-container">                 
         <p><b>Website running the React UI component library. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
         <span className="br">
-        <a href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+        <a className="a" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
         <Image src={reactLogo}  alt="logo" id="react-logo" /></a></span>
         Powered by the React. NodeJS(backend code) and MongoDB(database) software is in the development stage.<span className="br"></span>
         Building websites for mobile first to scale correctly.</p>
@@ -66,27 +67,27 @@ export default function Home() {
       </div>        
     </article>
     <div>
-      <div id="bne" ></div>
+      <Image src={bne} id="bne" alt="Brisbane Christmas sunset" />
     </div>
 
-    <hr></hr>
+    <hr className="hr"></hr>
 
     <article className="article">
       <div className="article-container">
-        <h2>Testing React and JavaScript via DOM</h2>
+        <h2 className="h2">Testing React and JavaScript via DOM</h2>
         <Image className="ball" src={ball8Logo}  alt="magic decision ball" />
-        <h3 className="pBall">Magic Decision ball</h3>
+        <h3 className="pBall, h3">Magic Decision ball</h3>
        {/* <button className="magic" onClick="Magic()">Ask a question and click for an answer?</button> */}
         <button className="magic" onClick={Magic}>Ask a question and click for an answer?</button> 
 
-        <hr></hr>
+        <hr className="hr"></hr>
 
-        <h3>Change background Colour</h3>
+        <h3 className='h3'>Change background Colour</h3>
         <button onClick={() => document.querySelector('body').style.backgroundColor = "#ffffff"}>Change colour</button>
         <button type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#ADD8E6"}>Reset colour</button> 
       </div>
 
-      <h3 id="sponcer">Sponsors & Website credits : <Image src={SJsponceLogo} alt="sJs"></Image></h3>
+      <h3 className="h3" id="sponcer">Sponsors & Website credits : <Image src={SJsponceLogo} alt="sJs"></Image></h3>
     </article>
 
       
