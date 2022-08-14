@@ -1,0 +1,142 @@
+#network {
+    height: 10rem;
+  }
+  
+  #network img {
+    padding-top: 0.5rem;
+    opacity: 0.4;
+    height: 10rem;
+    width: auto;
+    /* still passing through header*/
+    z-index: 1;
+    /*position: none;*/
+  } 
+  
+  
+  #xs-cloud {
+    opacity: 0.5;
+    
+  }
+  #xs-cloud:hover {
+    opacity: 1;
+    transform: scale(1.2);
+  }
+  
+  #react-logo {
+     margin: 1.5rem;
+  }
+  #sponcer {
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+    border: solid 0.2rem orange; 
+    color: #fff;
+    
+    /*margin: 1rem;*/
+  }
+  #sponcer img {
+    margin: 0.6rem;
+  
+  }
+  a {
+    text-decoration: none;
+  }
+  
+  .h1 {
+    border-left: solid 0.3rem orange; 
+    color: #000;
+    font-size: 2rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+  
+  h2, h3  {
+    border-left: solid 0.3rem orange;
+    margin: 1rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+  hr {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    margin-left: 8rem;
+    margin-right: 8rem;
+  }
+  
+  .ball {
+    width: 20vw;
+    height: auto;
+    object-fit: contain;
+  }
+  button { 
+    background-color: #888;
+    color: #000;
+    font-size: 1em;
+    padding: 10px 1em;
+    margin: 0.3rem 1.5rem;
+    border-radius: 12px;
+    opacity: 0.8;
+  
+      max-width: auto;
+      background-image: linear-gradient(
+             90deg,
+             #EEEEEE 0%, #EEEEEE 40%,
+             #DDDDDD 50%, #DDDDDD 55%,
+             #EEEEEE 65%, #888 100%
+           );
+           background-size: 300%;
+           animation: shimmer 3000ms infinite;
+  }
+     @keyframes shimmer {
+      from { background-position: 100% 100%;}
+      to {background-position: 0% 0%;}
+    }
+  
+  button:hover {
+    opacity: 1;
+  }
+  
+  /* div #bne {
+    background-position: center center;
+   }*/
+  .hook-button {
+    background-color: #ADD8E6;
+    color: #000;
+  }
+  
+  #bne {
+    background-image: url(../Assets/Images/SouthBank30-12-21.jpeg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    
+    height: 29.5rem;
+    max-width: 90vw;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  
+  .time-box{
+    display: flex; 
+    justify-content: center;
+    flex-wrap: wrap;
+   /* flex-wrap: wrap; */
+   
+    background-color: #999;
+   
+  }
+  .time-box div {
+    font-size: 1.5rem;
+    background-color: #444;
+    color: #fff;
+    margin: 1rem;
+    padding: 1rem;
+  }
+  /*#time h3{
+    color: red;
+    background-color: #555;
+  }*/
+  
+  

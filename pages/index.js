@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
+//import article from '../styles/Article.module.css'
 import aswLogo from '../public/Images/cloud.svg';
 import reactLogo from '../public/Images/reactImg.ico';
 import ball8Logo from '../public/Images/ball.png';
