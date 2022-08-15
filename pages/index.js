@@ -54,7 +54,7 @@ export default function Home() {
         <p><b>Website running the React UI component library. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
         <span className="br">
         <a className="a" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-        <Image src={reactLogo}  alt="logo" id="react-logo" /></a></span>
+        <Image src={reactLogo}  alt="logo" id="react-logo" height="64" width="64"/></a></span>
         Powered by the React. NodeJS(backend code) and MongoDB(database) software is in the development stage.<span className="br"></span>
         Building websites for mobile first to scale correctly.</p>
         <p>The {"Swear Jar"} name comes the challenges of chasing bugs and solving problems when writing code.</p>

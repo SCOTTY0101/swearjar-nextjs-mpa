@@ -25,16 +25,15 @@ export default function Nav() {
                         <Link href='/blog'>Blog</Link>
                     </li>
                     <li>
-              <a href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">
-              <Image src={linkedinLogo} alt="LinkedIn logo"/>
-              </a>
-            </li>
-            <li>
-              <a href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
-              <Image id="gitIcon" src={gitIogo} alt="github click link"/>
-              </a>
-            </li>
-
+                        <a href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">
+                        <Image src={linkedinLogo} alt="LinkedIn logo"/>
+                        </a>
+                    </li>
+                    <li>
+                         <a href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
+                        <Image id="gitIcon" src={gitIogo} alt="github click link"/>
+                        </a>
+                    </li>
                 </ul>
             </nav>        
         

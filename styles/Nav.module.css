@@ -9,6 +9,11 @@
     font-size: 1.3rem;
 }
 
+.navEnd {
+    display: flex;
+
+}
+
 .nav ul {
     display: flex;
     justify-content: center;
