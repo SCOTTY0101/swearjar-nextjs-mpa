@@ -38,7 +38,7 @@ export default function Home() {
         <p>Cloud hosted, static website with AWS.<span className="br"></span>
         Running on HTTPS (SSL) secure connection on port 443.<span className="br"></span>
         2022 will also see the website evolve with new software added.<span className="br"></span>
-        <b>Click the cloud to visit AWS console.</b><span className="br"></span>
+        <b> Click the cloud to visit AWS console.</b><span className="br"></span>
         <button className="button"><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer">
         <Image src={awsLogo} alt="cloud" id="xs-cloud"/></a></button><span className="br"></span>
         <b>Working with all things JavaScript to understand Full Stack development.</b><span className="br"></span>
@@ -53,6 +53,7 @@ export default function Home() {
       <div className="article-container">                 
         <p><b>Website running the React UI component library. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
         <span className="br">
+          <br />
         <a className="a" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
         <Image src={reactLogo}  alt="logo" id="react-logo" height="64" width="64"/></a></span>
         Powered by the React. NodeJS(backend code) and MongoDB(database) software is in the development stage.<span className="br"></span>
@@ -75,7 +76,7 @@ export default function Home() {
     <article className={articleStyles.art}>
       <div className="article-container">
         <h2 className="h2">Testing React and JavaScript via DOM</h2>
-        <Image className="ball" src={ball8Logo}  alt="magic decision ball" />
+        <Image className="ball" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
         <h3 className="pBall, h3">Magic Decision ball</h3>
        {/* <button className="magic" onClick="Magic()">Ask a question and click for an answer?</button> */}
         <button className="magic" onClick={Magic}>Ask a question and click for an answer?</button> 
