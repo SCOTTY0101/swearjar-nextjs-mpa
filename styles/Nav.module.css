@@ -1,6 +1,8 @@
 .nav {
     height: 5rem;
-    width: auto;
+    width: 100vw;
+    margin: 0.5rem;
+    padding: 0.5rem;
     color: #999;
     display: flex;
     align-items: center;
@@ -17,14 +19,12 @@
 }
 
 .nav ul li {
-    display: flex;
-    justify-content: space-between;
+    margin-left: 12rem;
 }
 
 .nav ul li a {
     display: flex;
     justify-content: center;
-    border: solid #999;
     margin: 0.6rem;
     padding: 0.4rem;
 }
@@ -32,6 +32,7 @@
 .nav ul li a:hover {
     color: #222;
     background-color: #F4F4F4;
+    border: solid #999;
 }
 
 
