@@ -21,11 +21,11 @@ export default function Home() {
         <meta name='keywords' content='nextjs, webapps, programming, front end'/>
 
       </Head>
-      <h1 className="h1"> Building swearjar website with nextjs</h1>
+      <h1 className={articleStyles.hr}> Building swearjar website with nextjs</h1>
       <article className={articleStyles.art}>
       <div className="article-container">
         <p>Front-End website for Development testing and Production.<span className="br"></span>
-        Server sponcership available with PayPal to have company name added to the website credits.</p><span className="br"></span>
+        Server sponcership available with PayPal to have company name added to the website credits.</p><span className={articleStyles.br}></span>
         <form action="https://www.paypal.com/donate" method="post" target="_top" >
           <input type="hidden" name="business" value="E2HRYJQA2AFBJ" />
           <input type="hidden" name="no_recurring" value="0" />
@@ -35,14 +35,14 @@ export default function Home() {
           <img alt="Donate" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />
         </form>
         <span className="br"></span>
-        <p>Cloud hosted, static website with AWS.<span className="br"></span>
-        Running on HTTPS (SSL) secure connection on port 443.<span className="br"></span>
-        2022 will also see the website evolve with new software added.<span className="br"></span>
-        <b> Click the cloud to visit AWS console.</b><span className="br"></span>
+        <p>Cloud hosted, static website with AWS.<span className={articleStyles.br}></span>
+        Running on HTTPS (SSL) secure connection on port 443.<span className={articleStyles.br}></span>
+        2022 will also see the website evolve with new software added.<span className={articleStyles.br}></span>
+        <b> Click the cloud to visit AWS console.</b><span className={articleStyles.br}></span>
         <button className="button"><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer">
-        <Image src={awsLogo} alt="cloud" id="xs-cloud"/></a></button><span className="br"></span>
-        <b>Working with all things JavaScript to understand Full Stack development.</b><span className="br"></span>
-        Incorporating the MERN stack into the website (MongoDB, Express, React, NodeJS) <span className="br"></span>
+        <Image src={awsLogo} alt="cloud" id="xs-cloud"/></a></button><span className={articleStyles.br}></span>
+        <b>Working with all things JavaScript to understand Full Stack development.</b><span className={articleStyles.br}></span>
+        Incorporating the MERN stack into the website (MongoDB, Express, React, NodeJS) <span className={articleStyles.br}></span>
         and implementing Design Patterns in the JavaScript code. 
         </p>
       </div>
@@ -52,7 +52,7 @@ export default function Home() {
     <article className={articleStyles.art}>
       <div className="article-container">                 
         <p><b>Website running the React UI component library. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
-        <span className="br">
+        <span className={articleStyles.br}>
           <br />
         <a className="a" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
         <Image src={reactLogo}  alt="logo" id="react-logo" height="64" width="64"/></a></span>
@@ -71,19 +71,19 @@ export default function Home() {
       <Image src={bne} id="bne" alt="Brisbane Christmas sunset" />
     </div>
 
-    <hr className="hr"></hr>
+    <hr className={articleStyles.hr}></hr>
 
     <article className={articleStyles.art}>
       <div className="article-container">
-        <h2 className="h2">Testing React and JavaScript via DOM</h2>
+        <h2 className={articleStyles.h3}>Testing React and JavaScript via DOM</h2>
         <Image className="ball" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
         <h3 className="pBall, h3">Magic Decision ball</h3>
        {/* <button className="magic" onClick="Magic()">Ask a question and click for an answer?</button> */}
         <button className="magic" onClick={Magic}>Ask a question and click for an answer?</button> 
 
-        <hr className="hr"></hr>
+        <hr className={articleStyles.hr}></hr>
 
-        <h3 className='h3'>Change background Colour</h3>
+        <h3 className={articleStyles.h3}>Change background Colour</h3>
         <button onClick={() => document.querySelector('body').style.backgroundColor = "#ffffff"}>Change colour</button>
         <button type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#ADD8E6"}>Reset colour</button> 
       </div>
