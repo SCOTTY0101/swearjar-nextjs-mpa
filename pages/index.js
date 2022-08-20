@@ -8,7 +8,7 @@ import ball8Logo from '../public/Images/ball.png'
 import SJsponceLogo from '../public/Images/favicon-32x32.png'
 //import colourBtn from './ColourBtn.js';
 //import resetBtn from './RestBtn';
-import Magic from '../pages/magicBall.js'
+import Magic from '../pages/magicBall.ts'
 
 //import styles from '../styles/Home.module.css'
 

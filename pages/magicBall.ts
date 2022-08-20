@@ -16,8 +16,9 @@ function Magic() {
    let reply = decision[Math.floor(Math.random()* 12)];
 
     const btn = document.querySelector('#magic');
-
-    function updateButton() {
+    
+    //Dev notes - This needs re-written to work better. btn? is a quick fix.
+    function updateButton(btn?) {
         if (btn.textContent === 'Ask a question and click for an answer?') {
             return btn.textContent = reply;
         } else if ( btn.textContent === reply) {
