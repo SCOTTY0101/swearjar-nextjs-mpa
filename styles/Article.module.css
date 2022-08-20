@@ -35,9 +35,15 @@
     transform: scale(1.2);
   }
   
-  #react-logo {
+  .reactLogo {
      margin: 1.5rem;
+     opacity: 0.9;
   }
+
+  .reactLogo:hover {
+    opacity: 1;
+  }
+
   #sponcer {
     height: 4rem;
     display: flex;

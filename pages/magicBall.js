@@ -15,7 +15,7 @@ function Magic() {
                     ];
    let reply = decision[Math.floor(Math.random()* 12)];
 
-    const btn = document.querySelector('.magic');
+    const btn = document.querySelector('#magic');
 
     function updateButton() {
         if (btn.textContent === 'Ask a question and click for an answer?') {

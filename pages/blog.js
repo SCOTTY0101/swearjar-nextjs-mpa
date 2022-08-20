@@ -40,7 +40,7 @@ export default function blog() {
                 <h3>Why the name “SwearJar”?</h3>
                 <p>
                 If anyone has tried their hand at coding, it comes from the challenges of writing clean code, that is bug free and works.
-                {"It's"} an ongoing journey of none stop learning....and filling up the swear jar.
+                {" It's"} an ongoing journey of none stop learning....and filling up the swear jar!
                </p>
         </div>
     

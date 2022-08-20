@@ -21,26 +21,31 @@ export default function Home() {
         <meta name='keywords' content='nextjs, webapps, programming, front end'/>
 
       </Head>
-      <h1 className={articleStyles.hr}> Building swearjar website with nextjs</h1>
+
+      {/*<h1 className={articleStyles.hr}> Building swearjar website with nextjs</h1>*/}
       <article className={articleStyles.art}>
       <div className="article-container">
+      <h1 className={articleStyles.h1}> Building swearjar website with nextjs</h1>
         <p>Front-End website for Development testing and Production.<span className="br"></span>
         Server sponcership available with PayPal to have company name added to the website credits.</p><span className={articleStyles.br}></span>
+      
         <form action="https://www.paypal.com/donate" method="post" target="_top" >
           <input type="hidden" name="business" value="E2HRYJQA2AFBJ" />
           <input type="hidden" name="no_recurring" value="0" />
           <input type="hidden" name="item_name" value="Website donation to help pay for server running costs." />
           <input type="hidden" name="currency_code" value="AUD" />
-          <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-          <img alt="Donate" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />
+          <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif" 
+            border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+          <img alt="Donate" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />   
         </form>
+
         <span className="br"></span>
         <p>Cloud hosted, static website with AWS.<span className={articleStyles.br}></span>
         Running on HTTPS (SSL) secure connection on port 443.<span className={articleStyles.br}></span>
         2022 will also see the website evolve with new software added.<span className={articleStyles.br}></span>
         <b> Click the cloud to visit AWS console.</b><span className={articleStyles.br}></span>
-        <button className="button"><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer">
-        <Image src={awsLogo} alt="cloud" id="xs-cloud"/></a></button><span className={articleStyles.br}></span>
+        <button className={articleStyles.button}><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer">
+        <Image className={articleStyles.reactLogo} src={awsLogo} alt="cloud" id="xs-cloud"/></a></button><span className={articleStyles.br}></span>
         <b>Working with all things JavaScript to understand Full Stack development.</b><span className={articleStyles.br}></span>
         Incorporating the MERN stack into the website (MongoDB, Express, React, NodeJS) <span className={articleStyles.br}></span>
         and implementing Design Patterns in the JavaScript code. 
@@ -55,7 +60,7 @@ export default function Home() {
         <span className={articleStyles.br}>
           <br />
         <a className="a" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-        <Image src={reactLogo}  alt="logo" id="react-logo" height="64" width="64"/></a></span>
+        <Image className={articleStyles.reactLogo} src={reactLogo}  alt="logo" id="react-logo" height="64" width="64"/></a></span>
         Powered by the React. NodeJS(backend code) and MongoDB(database) software is in the development stage.<span className="br"></span>
         Building websites for mobile first to scale correctly.</p>
         <p>The {"Swear Jar"} name comes the challenges of chasing bugs and solving problems when writing code.</p>
@@ -75,20 +80,20 @@ export default function Home() {
 
     <article className={articleStyles.art}>
       <div className="article-container">
-        <h2 className={articleStyles.h3}>Testing React and JavaScript via DOM</h2>
+        <h2 className={articleStyles.h2}>Testing React and JavaScript via DOM</h2>
         <Image className="ball" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
         <h3 className="pBall, h3">Magic Decision ball</h3>
        {/* <button className="magic" onClick="Magic()">Ask a question and click for an answer?</button> */}
-        <button className="magic" onClick={Magic}>Ask a question and click for an answer?</button> 
+        <button className={articleStyles.button} id="magic" onClick={Magic}>Ask a question and click for an answer?</button> 
 
         <hr className={articleStyles.hr}></hr>
 
         <h3 className={articleStyles.h3}>Change background Colour</h3>
-        <button onClick={() => document.querySelector('body').style.backgroundColor = "#ffffff"}>Change colour</button>
-        <button type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#ADD8E6"}>Reset colour</button> 
+        <button className={articleStyles.button} type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#ffffff"}>Change colour</button>
+        <button className={articleStyles.button} type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#ADD8E6"}>Reset colour</button> 
       </div>
 
-      <h3 className="h3" id="sponcer">Sponsors & Website credits : <Image src={SJsponceLogo} alt="sJs"></Image></h3>
+      <h3 className={articleStyles.h3} id="sponcer">Sponsors & Website credits : <Image src={SJsponceLogo} alt="sJs"></Image></h3>
     </article>
 
       
