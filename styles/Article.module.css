@@ -1,6 +1,7 @@
-.art {
+.article {
   height: auto;
-  width: 100vw;
+  width: 98vw;
+  border: solid 0.1rem #999;
   text-align: center;
     padding: 1rem;
     color: #000;

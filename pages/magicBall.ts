@@ -1,3 +1,5 @@
+import { stringify } from "querystring";
+
 function Magic() {
        
     const decision = [  'Yes', 
@@ -15,11 +17,16 @@ function Magic() {
                     ];
    let reply = decision[Math.floor(Math.random()* 12)];
 
-    const btn = document.querySelector('#magic');
+    //let btn = document.querySelector('#magic');
+   // btn : string
+    //let btn = document.getElementById('#magic');
     
     //Dev notes - This needs re-written to work better. btn? is a quick fix.
-    function updateButton(btn?) {
-        if (btn.textContent === 'Ask a question and click for an answer?') {
+    // code jfw!
+    function updateButton () {
+          //  btn : string
+          let btn = document.querySelector('#magic');
+        if (btn.textContent === 'Ask a question and click for an answer?' || null) {
             return btn.textContent = reply;
         } else if ( btn.textContent === reply) {
             return btn.textContent = 'Ask a question and click for an answer?';
