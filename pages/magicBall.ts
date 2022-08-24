@@ -1,7 +1,8 @@
-import { stringify } from "querystring";
+//import { stringify } from "querystring";
 
 function Magic() {
-    const decision: string[] = [  'Yes', 
+    const decision: string[] = [  
+                        'Yes', 
                         'No', 
                         'Outlook not so certain',
                         'Maybe', 
@@ -19,17 +20,15 @@ function Magic() {
     
     function updateButton() {
          const btn = document.querySelector('#magic');
-        if (btn.textContent === 'Ask a question and click for an answer?' || null) {
+        if (btn.textContent === 'Ask a question and click for an answer?') {
             return btn.textContent = reply;
         } else if ( btn.textContent === reply) {
             return btn.textContent = 'Ask a question and click for an answer?';
         } else {
-           return btn.textContent = 'Ask a question and click for an answer?'
+            return btn.textContent = 'Ask a question and click for an answer?'
         }
     }
     updateButton();
-
-
 }
 
 export default Magic

@@ -21,9 +21,7 @@
     opacity: 0.4;
     height: 10rem;
     width: auto;
-    /* still passing through header*/
     z-index: 1;
-    /*position: none;*/
   } 
   
   
@@ -54,7 +52,6 @@
     border: solid 0.2rem orange; 
     color: #fff;
     
-    /*margin: 1rem;*/
   }
   #sponcer img {
     margin: 0.6rem;
@@ -122,9 +119,6 @@
     opacity: 1;
   }
   
-  /* div #bne {
-    background-position: center center;
-   }*/
   .hook-button {
     background-color: #ADD8E6;
     color: #000;
@@ -146,8 +140,6 @@
     display: flex; 
     justify-content: center;
     flex-wrap: wrap;
-   /* flex-wrap: wrap; */
-   
     background-color: #999;
    
   }
@@ -158,9 +150,6 @@
     margin: 1rem;
     padding: 1rem;
   }
-  /*#time h3{
-    color: red;
-    background-color: #555;
-  }*/
+
   
   
