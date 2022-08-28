@@ -6,11 +6,9 @@
     color: #999;
     display: flex;
     align-items: center;
-    /*justify-content: flex-start;*/
     font-size: 1.3rem;
     border-bottom: solid 0.2rem #999;
 }
-
 
 .nav ul {
     display: flex;
