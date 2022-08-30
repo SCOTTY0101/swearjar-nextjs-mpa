@@ -80,7 +80,7 @@ export default function Home() {
 
     <article className={articleStyles.article}>
       <div className="article-container">
-        <h2 className={articleStyles.h2}>Testing React and JavaScript via DOM Testing React and JavaScript via DOM</h2>
+        <h2 className={articleStyles.h2}>Testing React/Nextjs and JavaScript via DOM</h2>
         <Image className="ball" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
         <h3 className="pBall, h3">Magic Decision ball</h3>
         <button className={articleStyles.button} id="magic" onClick={Magic}>Ask a question and click for an answer?</button> 
