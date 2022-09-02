@@ -13,6 +13,7 @@ import Magic from '../pages/magicBall.ts'
 //import styles from '../styles/Home.module.css'
 
 export default function Home({articles}) {
+  {/*test articles*/}
   console.log(articles)
   return (
     <div>
@@ -96,13 +97,12 @@ export default function Home({articles}) {
       </div>
     </article>
 
-      
     </div>
   )
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=6`)
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=15`)
 
   const articles = await res.json()
 
