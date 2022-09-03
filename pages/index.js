@@ -13,8 +13,8 @@ import Magic from '../pages/magicBall.ts'
 //import styles from '../styles/Home.module.css'
 
 export default function Home({articles}) {
-  {/*test articles*/}
-  console.log(articles)
+  {/*test articles in console log
+console.log(articles)*/}
   return (
     <div>
        <Head> 
@@ -23,6 +23,8 @@ export default function Home({articles}) {
         <meta name='keywords' content='nextjs, webapps, programming, front end'/>
 
       </Head>
+
+      
 
       {/*<h1 className={articleStyles.hr}> Building swearjar website with nextjs</h1>*/}
       <article className={articleStyles.article}>
@@ -97,12 +99,19 @@ export default function Home({articles}) {
       </div>
     </article>
 
+    {articles.map( (article) => (
+      <>
+      <h3> Testing js map</h3>
+        <p key ={article.title}>T{article.title}</p> 
+        </> 
+      ))}
+
     </div>
   )
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=15`)
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=10`)
 
   const articles = await res.json()
 
