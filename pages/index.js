@@ -101,8 +101,8 @@ console.log(articles)*/}
 
     {articles.map( (article) => (
       <>
-      <h3> Testing js map</h3>
-        <p key ={article.title}>T{article.title}</p> 
+      <h3> Testing js map </h3>
+        <p key ={article.title}>{article.title}</p> 
         </> 
       ))}
 
@@ -111,8 +111,7 @@ console.log(articles)*/}
 }
 
 export const getStaticProps = async () => {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=10`)
-
+  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=5`)
   const articles = await res.json()
 
   return {
