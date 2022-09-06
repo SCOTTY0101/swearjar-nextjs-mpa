@@ -24,4 +24,20 @@ return {
 
 }
 
+export const getStaticPaths = async() => {
+    const res = await fetch(`https://jsonplaceholder.typicode.com/posts/}`) 
+
+    const article = await res.json()
+
+    const ids = article.map(article => article.id)
+
+   return{
+    paths: {
+        params: {id: '1', id: '2'}
+    }
+   }
+
+}
+
+
 export default article
