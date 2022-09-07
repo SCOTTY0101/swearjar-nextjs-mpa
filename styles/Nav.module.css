@@ -1,8 +1,10 @@
 .nav {
     height: 5rem;
-    width: 100vw;
-    margin: 0.5rem;
-    padding: 0.5rem;
+    /*width: 100vw;*/
+    width: auto;
+    
+    margin: 0.3rem;
+    padding: 0.3rem;
     color: #999;
     display: flex;
     align-items: center;
@@ -17,7 +19,7 @@
 }
 
 .nav ul li {
-    margin-left: 12rem;
+    margin-left: 11rem;
 }
 
 .nav ul li a {
