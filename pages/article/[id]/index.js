@@ -11,7 +11,7 @@ const article = ({}) => {
     )
 }
 
-export const getServerSideProps = async (context) => {
+{/*export const getServerSideProps = async (context) => {
     const res = await fetch(`https://jsonplaceholder.typicode.com/posts/${context.params.id}`) 
 
 const article = await res.json()
@@ -22,7 +22,7 @@ return {
     }
 }
 
-}
+}*/}
 
 export const getStaticPaths = async() => {
     const res = await fetch(`https://jsonplaceholder.typicode.com/posts/}`) 
@@ -30,11 +30,11 @@ export const getStaticPaths = async() => {
     const article = await res.json()
 
     const ids = article.map(article => article.id)
+    const path = ids.map(id = ({params : {id : id.toString()}}))
 
    return{
-    paths: {
-        params: {id: '1', id: '2'}
-    }
+    paths,
+    fallback: false
    }
 
 }

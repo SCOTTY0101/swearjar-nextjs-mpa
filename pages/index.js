@@ -9,7 +9,7 @@ import SJsponceLogo from '../public/Images/favicon-32x32.png'
 //import colourBtn from './ColourBtn.js';
 //import resetBtn from './RestBtn';
 import Magic from '../pages/magicBall.ts'
-
+import ids from './article/[id]/index.js'
 //import styles from '../styles/Home.module.css'
 
 export default function Home({articles}) {
@@ -30,6 +30,7 @@ console.log(articles)*/}
       <article className={articleStyles.article}>
       <div className="article-container">
       <h1 className={articleStyles.h1}> Building swearjar website with nextjs</h1>
+      <div>{ids}</div>
         <p>Front-End website for Development testing and Production.<span className="br"></span>
         Server sponcership available with PayPal to have company name added to the website credits.</p><span className={articleStyles.br}></span>
       
