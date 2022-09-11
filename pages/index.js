@@ -6,11 +6,8 @@ import awsLogo from '../public/Images/cloud.svg'
 import reactLogo from '../public/Images/reactImg.ico'
 import ball8Logo from '../public/Images/ball.png'
 import SJsponceLogo from '../public/Images/favicon-32x32.png'
-//import colourBtn from './ColourBtn.js';
-//import resetBtn from './RestBtn';
 import Magic from '../pages/magicBall.ts'
 import ids from './article/[id]/index.js'
-//import styles from '../styles/Home.module.css'
 
 export default function Home({articles}) {
   {/*test articles in console log
@@ -20,13 +17,10 @@ console.log(articles)*/}
        <Head> 
         <title>SwearJar</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-        <meta name='keywords' content='nextjs, webapps, programming, front end'/>
+        <meta name='keywords' content='nextjs, react, web apps, web site, programming, front end'/>
 
       </Head>
 
-      
-
-      {/*<h1 className={articleStyles.hr}> Building swearjar website with nextjs</h1>*/}
       <article className={articleStyles.article}>
       <div className="article-container">
       <h1 className={articleStyles.h1}> Building swearjar website with nextjs</h1>
