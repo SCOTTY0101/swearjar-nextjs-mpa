@@ -33,7 +33,7 @@ export const getStaticPaths = async() => {
     const path = ids.map(id = ({params : {id : id.toString()}}))
 
    return{
-    paths,
+    path,
     fallback: false
    }
 
