@@ -7,11 +7,19 @@ import reactLogo from '../public/Images/reactImg.ico'
 import ball8Logo from '../public/Images/ball.png'
 import SJsponceLogo from '../public/Images/favicon-32x32.png'
 import Magic from '../pages/magicBall.ts'
-import ids from './article/[id]/index.js'
+//import ids from './article/[id]/index.js'
 
-export default function Home({articles}) {
+export default function Home({}) {
   {/*test articles in console log
-console.log(articles)*/}
+console.log(articles);
+//Removed test code. 
+ {articles.map( (article) => (
+      <>
+      <h3> Testing js map </h3>
+        <p key ={article.title}>{article.title}</p> 
+        </> 
+      ))}
+// Home({articles})*/}
   return (
     <div>
        <Head> 
@@ -24,7 +32,6 @@ console.log(articles)*/}
       <article className={articleStyles.article}>
       <div className="article-container">
       <h1 className={articleStyles.h1}> Building swearjar website with nextjs</h1>
-      <div>{ids}</div>
         <p>Front-End website for Development testing and Production.<span className="br"></span>
         Server sponcership available with PayPal to have company name added to the website credits.</p><span className={articleStyles.br}></span>
       
@@ -94,25 +101,19 @@ console.log(articles)*/}
       </div>
     </article>
 
-    {articles.map( (article) => (
-      <>
-      <h3> Testing js map </h3>
-        <p key ={article.title}>{article.title}</p> 
-        </> 
-      ))}
+   
 
     </div>
   )
 }
 
-export const getStaticProps = async () => {
-  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=5`)
-  const articles = await res.json()
+//export const getStaticProps = async () => {
+//  const res = await fetch(`https://jsonplaceholder.typicode.com/posts?_limit=5`)
+//  const articles = await res.json()
 
-  return {
-    props: {
-      articles
-    }
-  }
-  
-}
+ // return {
+//    props: {
+  //    articles
+  //  }
+//  }
+//}
