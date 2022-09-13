@@ -1,14 +1,14 @@
 .nav {
     height: 5rem;
-    /*width: 100vw;*/
-    width: auto;
+    /*width: 100vw;
+    width: auto;*/
     
-    margin: 0.3rem;
-    padding: 0.3rem;
+   /* margin: 0.4rem;*/
+   /* padding: 0.4rem;*/
     color: #999;
     display: flex;
     align-items: center;
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     border-bottom: solid 0.2rem #999;
 }
 
@@ -26,13 +26,12 @@
     display: flex;
     justify-content: center;
     margin: 0.6rem;
-    padding: 0.4rem;
+    padding: 0.6rem;
 }
 
 .nav ul li a:hover {
     color: #222;
     background-color: #F4F4F4;
-    border: solid #999;
+    border: solid 0.05rem #999;
+    border-radius: 0.3rem;
 }
-
-
