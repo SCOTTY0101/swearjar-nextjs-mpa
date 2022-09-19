@@ -51,7 +51,7 @@ console.log(articles);
         2022 will also see the website evolve with new software added.<span className={articleStyles.br}></span>
         <b> Click the cloud to visit AWS console.</b><span className={articleStyles.br}></span>
         <button className={articleStyles.button}><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer">
-        <Image className={articleStyles.reactLogo} src={awsLogo} alt="cloud" id="xs-cloud" height="48" width="48" /></a></button><span className={articleStyles.br}></span>
+        <Image className={articleStyles.awsLogo} src={awsLogo} alt="cloud" id="xs-cloud" height="48" width="48" /></a></button><span className={articleStyles.br}></span>
         <b>Working with all things JavaScript to understand Full Stack development.</b><span className={articleStyles.br}></span>
         Incorporating the MERN stack into the website (MongoDB, Express, React, NodeJS) <span className={articleStyles.br}></span>
         and implementing Design Patterns in the JavaScript code. 
@@ -63,10 +63,10 @@ console.log(articles);
     <article className={articleStyles.article}>
       <div className="article-container">                 
         <p><b>Website running the React UI component library. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
-        <span className={articleStyles.br}>
-          <br />
+        <span className={articleStyles.br}></span>
         <a className="a" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-        <Image className={articleStyles.reactLogo} src={reactLogo}  alt="logo" id="react-logo" height="64" width="64"/></a></span>
+        <Image className={articleStyles.reactLogo} src={reactLogo}  alt="logo" id="react-logo" height="64" width="64"/></a>
+        <span className={articleStyles.br}></span>
         Powered by the React. NodeJS(backend code) and MongoDB(database) software is in the development stage.<span className={articleStyles.br}></span>
         Building websites for mobile first to scale correctly.</p>
         <p>The {"Swear Jar"} name comes the challenges of chasing bugs and solving problems when writing code.</p>
@@ -97,7 +97,7 @@ console.log(articles);
         <button className={articleStyles.button} type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#ADD8E6"}>Change colour</button>
         <button className={articleStyles.button} type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#ffffff"}>Reset colour</button> 
       
-      <h3 className={articleStyles.h3} id="sponcer">Sponsors & Website credits : <Image src={SJsponceLogo} alt="sJs" /></h3>
+      <h3 className={articleStyles.sponcer} id="sponcer">Sponsors & Website credits : <Image src={SJsponceLogo} alt="sJs" /></h3>
       </div>
     </article>
 
