@@ -18,6 +18,7 @@ a {
 .centerDiv {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 
 @media (prefers-color-scheme: dark) {

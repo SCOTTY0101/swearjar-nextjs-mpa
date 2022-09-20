@@ -4,7 +4,8 @@
     flex-direction: column;
     text-align: center;
     /*background-color: orange;*/
-    height: 3rem;
+    border-top: solid 0.1rem #000;
+    height: 7rem;
     width: 100vw;
   }
   
