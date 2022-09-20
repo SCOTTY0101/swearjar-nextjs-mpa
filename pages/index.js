@@ -22,8 +22,10 @@ console.log(articles);
 // Home({articles})*/}
   return (
     <div>
+      <html lang='en'/>
        <Head> 
         <title>SwearJar</title>
+        <meta charSet='utf-8' />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name='keywords' content='nextjs, react, web apps, web site, programming, front end'/>
 

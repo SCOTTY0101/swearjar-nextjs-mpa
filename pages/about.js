@@ -9,6 +9,8 @@ export default function About() {
          </Head>
          <h1>Second linked page on nextjs.</h1>
          <p> What SwearJar Software builds.</p>
+         <div className='centerDiv'>CENTER DIV</div>
+         
         </div>
     )
 }

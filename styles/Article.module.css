@@ -34,6 +34,12 @@
     transform: scale(1.2);
   }
   
+/*.centerDiv {
+  display: flex;
+  justify-content: center;
+  color: aqua;
+}*/
+
   .reactLogo {
      margin: 1.5rem;
      opacity: 0.9;
