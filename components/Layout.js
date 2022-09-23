@@ -4,15 +4,15 @@ import styles from '../styles/Home.module.css'
 
 const layout = ({children}) => {
     return (
-        <>
+        <div>
         <Nav />
             <div className={styles.container}>
                 <main className={styles.main}>
                     {children}
                 </main>
-            </div> 
+            </div>
         <Footer />
-        </>
+        </div>
     )
 }
 

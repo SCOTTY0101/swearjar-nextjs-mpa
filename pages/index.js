@@ -22,7 +22,7 @@ console.log(articles);
 // Home({articles})*/}
   return (
     <div>
-      <html lang='en'/>
+      {/*<html lang='en'/>  //Caused hydration errors*/}
        <Head> 
         <title>SwearJar</title>
         <meta charSet='utf-8' />

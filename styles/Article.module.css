@@ -33,12 +33,6 @@
     opacity: 1;
     transform: scale(1.2);
   }
-  
-/*.centerDiv {
-  display: flex;
-  justify-content: center;
-  color: aqua;
-}*/
 
   .reactLogo {
      margin: 1.5rem;
@@ -61,7 +55,6 @@
   }
   #sponcer img {
     margin: 0.6rem;
-  
   }
   .a {
     text-decoration: none;

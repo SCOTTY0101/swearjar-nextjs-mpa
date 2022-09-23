@@ -37,3 +37,10 @@
     border: solid 0.05rem #999;
     border-radius: 0.3rem;
 }
+
+.centerDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:firebrick
+}
