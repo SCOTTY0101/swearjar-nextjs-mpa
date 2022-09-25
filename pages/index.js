@@ -33,9 +33,10 @@ console.log(articles);
 
       <article className={articleStyles.article}>
       <div className="article-container">
-      <h1 className={articleStyles.h1}> Building swearjar website with nextjs</h1>
+      <h1 className={articleStyles.h1}> Building swearjar website with Nextjs</h1>
         <p>Front-End website for Development testing and Production.<span className={articleStyles.br}></span>
-        Server sponcership available with PayPal to have company name added to the website credits.</p><span className={articleStyles.br}></span>
+        Server sponcership available with PayPal to have company name added to the website credits.</p>
+        <span className={articleStyles.br}></span>
       
         <form action="https://www.paypal.com/donate" method="post" target="_top" >
           <input type="hidden" name="business" value="E2HRYJQA2AFBJ" />
@@ -48,7 +49,7 @@ console.log(articles);
         </form>
 
         <span className="br"></span>
-        <p>Cloud hosted, static website with AWS.<span className={articleStyles.br}></span>
+        <p><b>Cloud hosted oh AWS (Amazon Web Services).</b><span className={articleStyles.br}></span>
         Running on HTTPS (SSL) secure connection on port 443.<span className={articleStyles.br}></span>
         2022 will also see the website evolve with new software added.<span className={articleStyles.br}></span>
         <b> Click the cloud to visit AWS console.</b><span className={articleStyles.br}></span>
@@ -63,15 +64,16 @@ console.log(articles);
 
 
     <article className={articleStyles.article}>
-      <div className="article-container">                 
-        <p><b>Website running the React UI component library. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
-        <span className={articleStyles.br}></span>
+      <div className="article-container">  
         <a className="a" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-        <Image className={articleStyles.reactLogo} src={reactLogo}  alt="logo" id="react-logo" height="64" width="64"/></a>
+        <Image className={articleStyles.reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/></a>               
+        <p><b>Website running the React UI component library and Nextjs framework. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
         <span className={articleStyles.br}></span>
-        Powered by the React. NodeJS(backend code) and MongoDB(database) software is in the development stage.<span className={articleStyles.br}></span>
-        Building websites for mobile first to scale correctly.</p>
-        <p>The {"Swear Jar"} name comes the challenges of chasing bugs and solving problems when writing code.</p>
+        Powered by the React/Nextjs. NodeJS(backend code) and MongoDB(database) software is in the development stage.<span className={articleStyles.br}></span>
+        Test Rendering: SSR (Server-Side Rending), CSR (Client-Side Rendering) and Rehydration.
+        <span className={articleStyles.br}></span>
+        Performance Testing : TTFB (Time to First Byte), FP (First Paint) - any pixel become visible and 
+        <span className={articleStyles.br}></span> TTI (Time To Interactive) - time at which page becomes interactive.</p>
         <p><b>Launching SwearJar Software in 2021/2022.</b><span className={articleStyles.br}></span>
         Programming development and refining of skills started in 2019. Monthly website updates will be pushed to the cloud.</p>
         <p><b>Email and have a website built to your design requirements.</b><span className={articleStyles.br}></span>
@@ -81,7 +83,7 @@ console.log(articles);
       </div>        
     </article>
     <div>
-      <Image src={bne} id="bne" alt="Brisbane Christmas sunset" />
+      <Image src={bne} id="bne" alt="Brisbane Christmas sunset" height="" width="" />
     </div>
 
     <hr className={articleStyles.hr}></hr>
@@ -99,11 +101,11 @@ console.log(articles);
         <button className={articleStyles.button} type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#ADD8E6"}>Change colour</button>
         <button className={articleStyles.button} type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#ffffff"}>Reset colour</button> 
       
-      <h3 className={articleStyles.sponcer} id="sponcer">Sponsors & Website credits : <Image src={SJsponceLogo} alt="sJs" /></h3>
+      <h3 className={articleStyles.sponcer}>Sponsors & Website credits : 
+      <Image className="SJsponcerLogo" src={SJsponceLogo} alt="sJs" height="32" width="32"/>
+      </h3>
       </div>
     </article>
-
-   
 
     </div>
   )

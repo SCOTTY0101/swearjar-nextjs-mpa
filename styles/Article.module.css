@@ -11,7 +11,7 @@
     font-size: 1.2rem;
 }
 
-
+/*
 #network {
     height: 10rem;
   }
@@ -23,7 +23,7 @@
     width: auto;
     z-index: 1;
   } 
-
+*/
   
   #xs-cloud {
     opacity: 0.5;
@@ -53,6 +53,13 @@
     color: #fff;
     
   }
+.sponcer,
+.SJsponcerLogo {
+  display: flex;
+  flex: 1;
+  justify-content: space-evenly;
+}
+
   #sponcer img {
     margin: 0.6rem;
   }

@@ -4,7 +4,6 @@ import Image from 'next/image'
 import gitIogo from '../public/Images/github.svg';
 import linkedinLogo from '../public/Images/linkedin.svg';
 import SJnavLogo from '../public/Images/favicon.ico';
-//import gitIogo from '../Assets/Images/github.svg';
 import styles from '../styles/Nav.module.css'
 
 
@@ -33,7 +32,7 @@ export default function Nav() {
                         </a>
                     </li>
                     <li>
-                         <a href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
+                        <a href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
                         <Image id="gitIcon" src={gitIogo} alt="github click link"/>
                         </a>
                     </li>
