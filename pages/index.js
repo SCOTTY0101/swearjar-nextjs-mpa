@@ -72,7 +72,7 @@ console.log(articles);
         Powered by the React/Nextjs. NodeJS(backend code) and MongoDB(database) software is in the development stage.<span className={articleStyles.br}></span>
         Test Rendering: SSR (Server-Side Rending), CSR (Client-Side Rendering) and Rehydration.
         <span className={articleStyles.br}></span>
-        Performance Testing : TTFB (Time to First Byte), FP (First Paint) - any pixel become visible and 
+        Performance Testing: TTFB (Time to First Byte), FP (First Paint) - any pixel become visible and 
         <span className={articleStyles.br}></span> TTI (Time To Interactive) - time at which page becomes interactive.</p>
         <p><b>Launching SwearJar Software in 2021/2022.</b><span className={articleStyles.br}></span>
         Programming development and refining of skills started in 2019. Monthly website updates will be pushed to the cloud.</p>

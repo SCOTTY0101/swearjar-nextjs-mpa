@@ -12,7 +12,7 @@ export default function blog() {
 
                 <h3>Who am I and what do I do?</h3>
                 <p>
-                I am a Self-taught Front-End developer and work part-time on my own projects or Open Source.
+                I am a Self-taught, Front-End developer and work part-time on my own projects or Open Source.
                 In 2018, I was working for a company and got interested in how hardware and software work together. 
                 That was an introduction to Arduino {"Uno's "} and The C language. 
                 After six months of learning to code, I came across JavaScript, HTML and CSS. In 2019 I started writing Frontend code.
