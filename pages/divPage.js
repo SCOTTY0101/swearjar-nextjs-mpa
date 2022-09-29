@@ -7,8 +7,10 @@ export default function divPage() {
             <Head>
                 <title>Div Page</title>
             </Head>
+            <div>
             <h1 className={NavStyles.centerDiv}>DIV</h1> 
-            <p> &rarr; hire me &larr; </p>  
+            <p className={NavStyles.divP}> &rarr; hire me &larr; </p>  
+            </div>
         </div>
     )
 }

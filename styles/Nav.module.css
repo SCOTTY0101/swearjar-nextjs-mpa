@@ -39,8 +39,18 @@
 }
 
 .centerDiv {
+    height: 7rem;
+    width: 7rem;
+    background-color: #999;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: purple;
+    /*flex-direction: column;*/
+    color: #444
+}
+
+.divP{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
