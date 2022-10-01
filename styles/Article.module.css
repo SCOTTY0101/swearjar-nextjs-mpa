@@ -2,6 +2,7 @@
   height: auto;
   width: 98vw;
   border: solid 0.1rem #999;
+  background-color: #DDD;
   text-align: center;
     padding: 1rem;
     color: #000;
@@ -9,6 +10,7 @@
     align-items: center;
     justify-content: center;
     font-size: 1.2rem;
+
 }
 
 /*
