@@ -98,8 +98,8 @@ console.log(articles);
         <hr className={articleStyles.hr}></hr>
 
         <h3 className={articleStyles.h3}>Change background Colour</h3>
-        <button className={articleStyles.button} type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#ADD8E6"}>Change colour</button>
-        <button className={articleStyles.button} type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#ffffff"}>Reset colour</button> 
+        <button className={articleStyles.button} type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#D0D4E7"}>Change colour</button>
+        <button className={articleStyles.button} type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#FFFFFF"}>Reset colour</button> 
       
       <h3 className={articleStyles.sponcer}>Sponsors & Website credits : 
       <Image className="SJsponcerLogo" src={SJsponceLogo} alt="sJs" height="32" width="32"/>
