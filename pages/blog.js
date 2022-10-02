@@ -6,12 +6,12 @@ export default function blog() {
     return (
        <div>
             <Head>
-            <title>SwearJar Blog</title>
+            <title>Blog Page</title>
             </Head>
-            <h1>A blog about who I am and what I do.</h1>
+            <h1 className={DivStyles.h1}>Swearjar Blog page.</h1>
             
             <article className={DivStyles.article}>
-                <h3>Who am I and what do I do?</h3>
+                <h3 className={DivStyles.h3}>Who am I and what do I do?</h3>
                 <p>
                 A self-taught, Front-end developer and work part-time on my own projects or Open Source.
                 In 2018, I was working for a company and got interested in how hardware and software interact together. 
@@ -20,14 +20,14 @@ export default function blog() {
                 </p>
                 <br />
     
-                <h3>Why do I code?</h3>
+                <h3 className={DivStyles.h3}>Why do I code?</h3>
                 <p>
                 I am technically minded, and I prefer to keep my brain busy with problem solving.
                 I enjoy the challenges of coding and writing software. 
                 </p>
                 <br />
             
-                <h3>Why JavaScript?</h3>
+                <h3 className={DivStyles.h3}>Why JavaScript?</h3>
                 <p>
                 {"It's"} relatively easy to learn and whither {"it's"} a good or bad a thing, but JavaScript is everywhere.
                 Want to work Frontend with Web or Mobile {"App's"}?
@@ -38,7 +38,7 @@ export default function blog() {
                 <br />
 
                 
-                <h3>Why the name “SwearJar”?</h3>
+                <h3 className={DivStyles.h3}>Why the name “SwearJar”?</h3>
                 <p>
                 If anyone has tried their hand at coding, it comes from the challenges of writing clean code, that is bug free and works.
                 {" It's"} an ongoing journey of none stop learning....and filling up the swear jar!

@@ -2,8 +2,10 @@
     font-family: Arial, Helvetica, sans-serif;
     height: auto;
     width: auto;
-    border: 2px solid #555;
+    border: solid 0.1rem #555;
     padding: 0.5rem;
     background-color: #ddd;
 }
-
+.h1, .h3 {
+    border-left: solid 0.3rem #FFA500; 
+} 
