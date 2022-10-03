@@ -12,7 +12,7 @@
   align-items: center;
 }
 
-.footer {
+/*.footer {
   display: flex;
   flex: 1;
   padding: 2rem 0;
@@ -28,6 +28,7 @@
   flex-grow: 1;
 }
 
+
 .title a {
   color: #0070f3;
   text-decoration: none;
@@ -38,7 +39,7 @@
 .title a:active {
   text-decoration: underline;
 }
-
+*/
 .title {
   margin: 0;
   line-height: 1.15;
