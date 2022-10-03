@@ -3,35 +3,46 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
-    /*background-color: orange;*/
     border-top: solid 0.1rem #000;
-    height: 7rem;
+    height: 6rem;
     width: 100vw;
   }
   
   .footer p {
-    height: 1rem;
-    line-height: 1.6rem;
-    /*margin-top: 0;*/
+    display: flex;
+   margin: 0.5rem;
+   justify-content: center;
+   text-align: center; 
+   
   }
   
   .footer a {
+    height: 2rem;
     opacity: 0.8;
+    display: flex;
+    justify-content: center;
+    text-align: center;
   }
   .footer a:hover {
     opacity: 1;
-    transform: scale(1.2);
+    transform: scale(1.1);
   }
 
   .copyDiv {
-    height: 2rem;
-    width: auto;
+    height: 7rem;
     display: flex;
     justify-content: center;
     text-align: center;
   }
   
   .sjLogo { 
+    display: flex;
+    justify-content:center;
+    text-align: center;
+    margin-left: 0.5rem;
+    padding-left: 0.5rem;;
+  }
+  .gitLogo {
     display: flex;
     justify-content: center;
     text-align: center;

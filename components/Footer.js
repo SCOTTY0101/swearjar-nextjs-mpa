@@ -12,7 +12,7 @@ export default function footer() {
           <a className={footerStyle.a} href="http://www.github.com/SCOTTY0101/swearjar-nextjs-mpa" target="_blank" rel="noopener noreferrer">
             <Image className={footerStyle} src={gitLogo} alt="github click link" height='32' width='32'/></a>
           <div className={footerStyle.copyDiv}>
-            <p> &copy; SwearJarSoftware 2019-2022
+            <p> &copy; SwearJarSoftware 2019-2022.
               <Image className={footerStyle.sjLogo} src={SJnavLogo} alt="sJs" width='16' height='16'/> 
             </p>
           </div>
