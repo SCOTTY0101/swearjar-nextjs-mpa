@@ -14,6 +14,7 @@ export default function About() {
                 <p>What SwearJar Software builds.</p>
                 <p>Re-building the website with Next.js and SSR (Server Side Rendering).</p>
                 <p>Server to run on AWS EC2.</p>
+                <p>Powered by Next.js a React framework.</p>
     
             </article>
             
