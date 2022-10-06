@@ -8,7 +8,7 @@ export default function About() {
             <Head>
                 <title>SwearJar About</title>
             </Head>
-            <article>
+            <article className={aboutStyles.article}>
                 
                 <h1>Second linked page on nextjs.</h1>
                 <p>What SwearJar Software builds.</p>
@@ -16,8 +16,7 @@ export default function About() {
                 <p>Server to run on AWS EC2.</p>
                 <p>Powered by Next.js. The React framework for production.</p>
     
-            </article>
-            
+            </article>            
         </div>
     )
 }
