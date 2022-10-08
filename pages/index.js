@@ -33,8 +33,9 @@ console.log(articles);
 
       <article className={articleStyles.article}>
       <div className="article-container">
-      <h1 className={articleStyles.h1}> Building swearjar website with Nextjs</h1>
-        <p>Front-End website for Development testing and Production.<span className={articleStyles.br}></span>
+      <h1 className={articleStyles.h1}> Building Swearjar website with Nextjs</h1>
+        <p>Front-end website for Development testing and Production.<span className={articleStyles.br}></span>
+        My web developer portfolio.<span className={articleStyles.br}></span>
         Server sponcership available with PayPal to have company name added to the website credits.</p>
         <span className={articleStyles.br}></span>
       
