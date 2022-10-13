@@ -50,7 +50,8 @@ console.log(articles);
         </form>
 
         <span className="br"></span>
-        <p><b>Cloud hosted oh AWS (Amazon Web Services).</b><span className={articleStyles.br}></span>
+        <p><b>Cloud hosted on AWS (Amazon Web Services).</b><span className={articleStyles.br}></span>
+        AWS Route 53 and S3 storage bucket used to run the stactic webpage.<span className={articleStyles.br}></span>
         Running on HTTPS (SSL) secure connection on port 443.<span className={articleStyles.br}></span>
         2022 will also see the website evolve with new software added.<span className={articleStyles.br}></span>
         <b> Click the cloud to visit AWS console.</b><span className={articleStyles.br}></span>
