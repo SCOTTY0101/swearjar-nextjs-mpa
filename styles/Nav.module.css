@@ -19,10 +19,12 @@
 }
 
 .nav ul li {
-    margin-left: 9rem;
+    margin-left: 6rem;
 }
 
 .nav ul li a {
+    height: 2rem;
+    width: 3rem;
     color: inherit;
     display: flex;
     justify-content: center;

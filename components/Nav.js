@@ -27,6 +27,9 @@ export default function Nav() {
                         <Link href='/divPage'>Div</Link>
                     </li>
                     <li>
+                        <Link href='/games'>Games</Link>
+                    </li>
+                    <li>
                         <a href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">
                         <Image src={linkedinLogo} alt="LinkedIn logo"/>
                         </a>
