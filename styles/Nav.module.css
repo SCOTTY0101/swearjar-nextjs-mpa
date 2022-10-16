@@ -16,12 +16,9 @@
 }
 
 .nav ul li {
-    
-    display: flex;
-    justify-content: space-evenly;
-    /*margin-left: 7rem;*/
-  
-    
+   /* display: flex;*/
+    margin-left: 4.2rem;
+    margin-right: 4.2rem;
 }
 
 .nav ul li a {
@@ -47,3 +44,19 @@
     border-radius: 0.3rem;
 }
 
+/*Div page CSS layout below*/
+.centerDiv {
+    height: 7rem;
+    width: 7rem;
+    background-color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #444;
+}
+
+.divP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
