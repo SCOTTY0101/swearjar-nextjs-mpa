@@ -36,7 +36,7 @@ console.log(articles);
       <h1 className={articleStyles.h1}> Building Swearjar website with Nextjs</h1>
         <p>Front-end website for Development testing and Production.<span className={articleStyles.br}></span>
         My web developer portfolio.<span className={articleStyles.br}></span>
-        Server sponcership available with PayPal to have company name added to the website credits.</p>
+       <b>Server sponcership available with PayPal to have company name added to the website credits.</b></p>
         <span className={articleStyles.br}></span>
       
         <form action="https://www.paypal.com/donate" method="post" target="_top" >

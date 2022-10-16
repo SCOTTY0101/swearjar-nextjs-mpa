@@ -16,7 +16,7 @@ export default function blog() {
                 A self-taught, Front-end developer and work part-time on my own projects or Open Source.
                 In 2018, I was working for a company and got interested in how hardware and software interact together. 
                 That was an introduction to Arduino {"Uno's "} and The C language. 
-                After six months of learning to code, I came across JavaScript, HTML and CSS. In 2019 I started writing Frontend code.
+                After six months of learning to code, I came across JavaScript, HTML and CSS. In 2019 I started writing Front-end code.
                 </p>
                 <br />
     

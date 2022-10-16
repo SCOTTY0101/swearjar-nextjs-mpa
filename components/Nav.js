@@ -5,6 +5,7 @@ import gitIogo from '../public/Images/github.svg';
 import linkedinLogo from '../public/Images/linkedin.svg';
 import SJnavLogo from '../public/Images/favicon.ico';
 import styles from '../styles/Nav.module.css'
+import styleButton from '../styles/Article.module.css'
 
 
 export default function Nav() {
@@ -34,6 +35,11 @@ export default function Nav() {
                         <a href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
                         <Image id="gitIcon" src={gitIogo} alt="github click link"/>
                         </a>
+                    </li>
+                    <li>
+                        <form>
+                            <button className={styles.button}>Sign In</button>
+                        </form>
                     </li>
                 </ul>
             </nav>                
