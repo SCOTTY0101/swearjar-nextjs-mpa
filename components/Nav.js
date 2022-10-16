@@ -11,9 +11,8 @@ export default function Nav() {
     return (
         <div>
             <nav className={styles.nav}>
-                <ul>
-                <div className="logo"><Image src={SJnavLogo} alt="sJs" width='32' height='32'/></div> 
-
+              <Image src={SJnavLogo} alt="sJs" width='32' height='32'/> 
+                <ul>            
                     <li>
                         <Link href='/'>Home</Link>
                     </li>
@@ -25,9 +24,6 @@ export default function Nav() {
                     </li>
                     <li>
                         <Link href='/divPage'>Div</Link>
-                    </li>
-                    <li>
-                        <Link href='/games'>Games</Link>
                     </li>
                     <li>
                         <a href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">
