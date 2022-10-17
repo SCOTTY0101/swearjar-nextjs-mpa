@@ -2,6 +2,7 @@ import Head from 'next/head'
 import aboutStyles from '../styles/About.module.css'
 
 
+
 export default function About() {
     return (
         <div>
