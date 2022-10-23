@@ -21,7 +21,7 @@ console.log(articles);
       ))}
 // Home({articles})*/}
   return (
-    <div>
+    <div className='scroll-smooth'>
       {/*<html lang='en'/>  //Caused hydration errors*/}
        <Head> 
         <title>SwearJar</title>
@@ -34,7 +34,7 @@ console.log(articles);
       <article className={articleStyles.article}>
       <div className="article-container">
       <h1 className={articleStyles.h1}> Building Swearjar website with Nextjs</h1>
-        <p>Front-end website for production development testing.<span className={articleStyles.br}></span>
+        <p>Front-end website for production evelopment testing.<span className={articleStyles.br}></span>
         My web developer portfolio.<span className={articleStyles.br}></span>
        <b>Server sponcership available with PayPal to have credits added to the website.</b></p>
         <span className={articleStyles.br}></span>

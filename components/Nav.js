@@ -13,27 +13,30 @@ export default function Nav() {
     return (
         <div>
             <nav className='flex'>
-              <Image  src={SJnavLogo} alt="sJs" width='24' height='16'/> 
+             {/* <Image className='ml-4' src={SJnavLogo} alt="sJs" width='24' height='16'/> */}
                 <ul 
-                className='md:container h-20 justify-center inline-flex items-center'>            
-                    <li className='items-center m-20'>
+                className='md:container h-16 justify-center inline-flex items-center'>
+                    <li>
+                    <Image className='justify-center items-center  text-center m-16'  src={SJnavLogo} alt="sJs" width='24' height='16'/>     
+                    </li>            
+                    <li className='items-center m-16'>
                         <Link href='/'>Home</Link>
                     </li>
-                    <li className='items-center m-20'>
+                    <li className='items-center m-16'>
                         <Link href='/about'>About</Link>
                     </li>
-                    <li className='items-center m-20'>
+                    <li className='items-center m-16'>
                         <Link href='/blog'>Blog</Link>
                     </li>
-                    <li className='items-center m-20'>
+                    <li className='items-center m-16'>
                         <Link href='/divPage'>Div</Link>
                     </li>
-                    <li className='items-center m-20'>
+                    <li className='items-center m-16'>
                         <a href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">
                         <Image src={linkedinLogo} alt="LinkedIn logo"/>
                         </a>
                     </li>
-                    <li className='items-center m-20'>
+                    <li className='items-center m-16'>
                         <a href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
                         <Image id="gitIcon" src={gitIogo} alt="github click link"/>
                         </a>
