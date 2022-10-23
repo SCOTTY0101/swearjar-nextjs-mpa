@@ -34,9 +34,9 @@ console.log(articles);
       <article className={articleStyles.article}>
       <div className="article-container">
       <h1 className={articleStyles.h1}> Building Swearjar website with Nextjs</h1>
-        <p>Front-end website for Development testing and Production.<span className={articleStyles.br}></span>
+        <p>Front-end website for production development testing.<span className={articleStyles.br}></span>
         My web developer portfolio.<span className={articleStyles.br}></span>
-       <b>Server sponcership available with PayPal to have company name added to the website credits.</b></p>
+       <b>Server sponcership available with PayPal to have credits added to the website.</b></p>
         <span className={articleStyles.br}></span>
       
         <form action="https://www.paypal.com/donate" method="post" target="_top" >
@@ -57,9 +57,7 @@ console.log(articles);
         <b> Click the cloud to visit AWS console.</b><span className={articleStyles.br}></span>
         <button className={articleStyles.button}><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer">
         <Image className={articleStyles.awsLogo} src={awsLogo} alt="cloud" id="xs-cloud" height="48" width="48" /></a></button><span className={articleStyles.br}></span>
-        <b>Working with all things JavaScript to understand Full Stack development.</b><span className={articleStyles.br}></span>
-        Incorporating the MERN stack into the website (MongoDB, Express, React, NodeJS) <span className={articleStyles.br}></span>
-        and implementing Design Patterns in the JavaScript code. 
+        <b>Working with all things JavaScript to understand Full Stack development</b><span className={articleStyles.br}></span>
         </p>
       </div>
     </article>
@@ -76,8 +74,6 @@ console.log(articles);
         <span className={articleStyles.br}></span>
         Performance Testing: TTFB (Time to First Byte), FP (First Paint) - any pixel become visible and 
         <span className={articleStyles.br}></span> TTI (Time To Interactive) - time at which page becomes interactive.</p>
-        <p><b>Launching SwearJar Software in 2021/2022.</b><span className={articleStyles.br}></span>
-        Programming development and refining of skills started in 2019. Monthly website updates will be pushed to the cloud.</p>
         <p><b>Email and have a website built to your design requirements.</b><span className={articleStyles.br}></span>
         Website development lead times are 2 to 4 weeks for a basic static site. Fully custom website, 4 to 16 weeks.<span className={articleStyles.br}></span>
         Custom website involves a six stage proccess : Analysing requirements, Design, Revisions, 

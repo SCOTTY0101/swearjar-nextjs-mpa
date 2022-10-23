@@ -11,7 +11,7 @@ export default function About() {
             </Head>
             <article className={aboutStyles.article}>
                 
-                <h1>Second linked page using Nextjs.</h1>
+                <h1 className="text-3xl font-bold underline">Second linked page using Nextjs.</h1>
                 <p>What SwearJar Software builds.</p>
                 <p>Re-building the website with Next.js and SSR (Server Side Rendering).</p>
                 <p>Powered by Nextjs. The React framework for production.</p>
