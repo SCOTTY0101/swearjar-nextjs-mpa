@@ -12,35 +12,36 @@ import SJnavLogo from '../public/Images/favicon.ico';
 export default function Nav() {
     return (
         <div>
-            <nav className='flex  sm:md:lg:xl:2xl:containe w-screen'>
+            <nav className='container mx-auto flex flew-wrap justify-center items-center h-16  
+            bg-gray-200 md:rounded-lg md:border-solid'>
              {/* <Image className='ml-4' src={SJnavLogo} alt="sJs" width='24' height='16'/> */}
-                <ul 
-                className='sm:md:lg:xl:2xl:container h-8 m-4 justify-center inline-flex items-center'>
-                    <div className='flex justify-center items-center  text-center'>
+                <div className='flex justify-start items-center h-16 w-16'>
                     <Image  src={SJnavLogo} alt="sJs" width='24' height='24'/>     
-                    </div>            
-                    <li className='items-center mx-8'>
+                </div>  
+                <ul 
+                className='flex flex-wrap justify-center items-center'>          
+                    <li className='items-center mx-16 border-red-400 hover:underline'>
                         <Link href='/'>Home</Link>
                     </li>
-                    <li className='items-center mx-8'>
+                    <li className='items-center mx-16 hover:underline'>
                         <Link href='/about'>About</Link>
                     </li>
-                    <li className='items-center mx-8'>
+                    <li className='items-center mx-16 hover:underline'>
                         <Link href='/blog'>Blog</Link>
                     </li>
-                    <li className='items-center mx-8'>
+                    <li className='items-center mx-16 hover:underline'>
                         <Link href='/divPage'>Div</Link>
                     </li>
-                    <li className='items-center mx-8'>
-                        <a className=' flex justify-center items-center  text-center'
-                        href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">
-                        <Image src={linkedinLogo} alt="LinkedIn logo"/>
+                    <li className='items-center mx-16 hover:underline'>
+                        <a className=' flex justify-center items-center hover:opacity-70'
+                            href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">
+                            <Image src={linkedinLogo} alt="LinkedIn logo"/>
                         </a>
                     </li>
-                    <li className='items-center mx-8'>
-                        <a className=' flex justify-center items-center  text-center'
-                        href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
-                        <Image id="gitIcon" src={gitIogo} alt="github click link"/>
+                    <li className='items-center mx-16'>
+                        <a className='flex justify-center items-center hover:opacity-70'
+                            href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
+                            <Image id="gitIcon" src={gitIogo} alt="github click link"/>
                         </a>
                     </li>
 
