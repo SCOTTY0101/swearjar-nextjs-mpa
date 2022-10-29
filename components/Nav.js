@@ -13,38 +13,41 @@ export default function Nav() {
     return (
         <div>
             <nav className='bg-gray-200 shadow-lg'>
-            <div className="container flex flex-wrap justify-between items-center mx-auto">
+            <div className="container flex flex-wrap  h-12 justify-between items-center mx-auto">
+                <div className='flex justify-center items-center'>
+                    <Image  src={SJnavLogo} alt="sJs" width='24' height='24'/>     
+                </div>
 
+                <div>                 
                 <ul className='sm:self-center inline-flex'>  
-                    <div className=''>
-                        <Image  src={SJnavLogo} alt="sJs" width='24' height='24'/>     
-                    </div>          
-                    <li className=''>
+                            
+                    <li className='px-4 text-gray-700 hover:text-gray-500'>
                         <Link href='/' className=''>Home</Link>
                     </li>
-                    <li className=''>
+                    <li className='px-4 text-gray-700 hover:text-gray-500'>
                         <Link href='/about'>About</Link>
                     </li>
-                    <li className=''>
+                    <li className='px-4 text-gray-700 hover:text-gray-500'>
                         <Link href='/blog'>Blog</Link>
                     </li>
-                    <li className=''>
+                    <li className='px-4  text-gray-700 hover:text-gray-500'>
                         <Link href='/divPage'>Div</Link>
                     </li>
-                    <li className=''>
-                        <a className=''
+                    <li className='px-4 '>
+                        <a className='flex justify-center items-center hover:opacity-50'
                             href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">
                             <Image src={linkedinLogo} alt="LinkedIn logo"/>
                         </a>
                     </li>
-                    <li className=''>
-                        <a className=''
+                    <li className='px-4'>
+                        <a className='flex justify-center items-center hover:opacity-50'
                             href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
                             <Image id="gitIcon" src={gitIogo} alt="github click link"/>
                         </a>
                     </li>
 
                 </ul>
+                </div>
             </div>
             </nav>                
         </div>

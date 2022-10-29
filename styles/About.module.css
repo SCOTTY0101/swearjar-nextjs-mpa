@@ -1,5 +1,5 @@
 .article {
-        height: 160rem;
+        height: auto;
         width: 98vw;
         border: solid 0.1rem #999;
         background-color: #DDD;
