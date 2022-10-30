@@ -4,7 +4,7 @@ import Image from 'next/image'
 import gitIogo from '../public/Images/github.svg';
 import linkedinLogo from '../public/Images/linkedin.svg';
 import SJnavLogo from '../public/Images/favicon.ico';
-//import styles from '../styles/Nav.module.css'
+import styles from '../styles/Nav.module.css'
 
 //className={styles.nav}
 
@@ -12,14 +12,14 @@ import SJnavLogo from '../public/Images/favicon.ico';
 export default function Nav() {
     return (
         <div>
-            <nav className='bg-gray-200 shadow-lg'>
+            <nav className='w-full bg-gray-200 shadow-lg'>
             <div className="container flex flex-wrap  h-12 justify-between items-center mx-auto">
                 <div className='flex justify-center items-center'>
                     <Image  src={SJnavLogo} alt="sJs" width='24' height='24'/>     
                 </div>
 
                 <div>                 
-                <ul className='sm:self-center inline-flex'>  
+                <ul className='self-center inline-flex '>  
                             
                     <li className='px-4 text-gray-700 hover:text-gray-500'>
                         <Link href='/' className=''>Home</Link>
