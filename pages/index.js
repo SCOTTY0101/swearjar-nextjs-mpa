@@ -32,9 +32,10 @@ console.log(articles);
       </Head>
 
       <article className={articleStyles.article}>
-      <div className="article-container">
-      <h1 className={articleStyles.h1}> Building Swearjar website with Nextjs</h1>
+      <div className="container">
+      <h1 className="text-3xl font-bold"> Building Swearjar website with Nextjs</h1>
         <p>Front-end website for production development testing.<span className={articleStyles.br}></span>
+        <b>Responsive Web Design is in testing mode. View current version via Github Footer link.</b><span className={articleStyles.br}></span>
         My web developer portfolio.<span className={articleStyles.br}></span>
        <b>Server sponcership available with PayPal to have credits added to the website.</b></p>
         <span className={articleStyles.br}></span>
@@ -64,20 +65,16 @@ console.log(articles);
 
 
     <article className={articleStyles.article}>
-      <div className="article-container">  
+      <div className="container">  
         <a className="a" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
         <Image className={articleStyles.reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/></a>               
         <p><b>Website running the React UI component library and Nextjs framework. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
         <span className={articleStyles.br}></span>
-        Powered by the React/Nextjs. NodeJS(backend code) and MongoDB(database) software is in the development stage.<span className={articleStyles.br}></span>
+        Powered by React/Nextjs. NodeJS(backend code) and MongoDB(database) software is in the development stage.<span className={articleStyles.br}></span>
         Test Rendering: SSR (Server-Side Rending), CSR (Client-Side Rendering) and Rehydration.
         <span className={articleStyles.br}></span>
         Performance Testing: TTFB (Time to First Byte), FP (First Paint) - any pixel become visible and 
         <span className={articleStyles.br}></span> TTI (Time To Interactive) - time at which page becomes interactive.</p>
-        <p><b>Email and have a website built to your design requirements.</b><span className={articleStyles.br}></span>
-        Website development lead times are 2 to 4 weeks for a basic static site. Fully custom website, 4 to 16 weeks.<span className={articleStyles.br}></span>
-        Custom website involves a six stage proccess : Analysing requirements, Design, Revisions, 
-        Development, Content and Migration/Go live.</p>
       </div>        
     </article>
     <div>
@@ -87,7 +84,7 @@ console.log(articles);
     <hr className={articleStyles.hr}></hr>
 
     <article className={articleStyles.article}>
-      <div className="article-container">
+      <div className="container">
         <h2 className={articleStyles.h2}>Testing React/Nextjs and JavaScript via DOM</h2>
         <Image className="ball" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
         <h3 className="pBall, h3">Magic Decision ball</h3>
