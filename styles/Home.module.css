@@ -1,4 +1,4 @@
-.container {
+/*.container {
   padding: 0 2rem;
 }
 
@@ -11,6 +11,7 @@
   justify-content: center;
   align-items: center;
 }
+ // turn off 31/10/22*/ 
 
 /*.footer {
   display: flex;

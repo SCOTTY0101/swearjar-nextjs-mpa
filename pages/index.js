@@ -31,14 +31,15 @@ console.log(articles);
 
       </Head>
 
-      <article className={articleStyles.article}>
-      <div className="container">
-      <h1 className="text-3xl font-bold"> Building Swearjar website with Nextjs</h1>
+      <article className='bg-gray-200 text-center'>
+      <div className="">
+        <h1 className="text-4xl font-bold"> Building Swearjar website with Nextjs</h1>
+          <p className='font-bold'>My web developer portfolio.</p><span className={articleStyles.br}></span>
         <p>Front-end website for production development testing.<span className={articleStyles.br}></span>
-        <b>Responsive Web Design is in testing mode. View current version via Github Footer link.</b><span className={articleStyles.br}></span>
-        My web developer portfolio.<span className={articleStyles.br}></span>
-       <b>Server sponcership available with PayPal to have credits added to the website.</b></p>
-        <span className={articleStyles.br}></span>
+        <b>Responsive Web Design is in testing mode.</b><span className={articleStyles.br}></span>
+         View current version via Github Footer link.<span className={articleStyles.br}></span>  
+        Server sponcership available with PayPal to have credits added to the website.</p>
+        {/*<span className={articleStyles.br}></span>*/}
       
         <form action="https://www.paypal.com/donate" method="post" target="_top" >
           <input type="hidden" name="business" value="E2HRYJQA2AFBJ" />
@@ -64,8 +65,8 @@ console.log(articles);
     </article>
 
 
-    <article className={articleStyles.article}>
-      <div className="container">  
+    <article className='bg-gray-200 text-center'>
+      <div className="">  
         <a className="a" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
         <Image className={articleStyles.reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/></a>               
         <p><b>Website running the React UI component library and Nextjs framework. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
@@ -81,24 +82,24 @@ console.log(articles);
       <Image src={bne} id="bne" alt="Brisbane Christmas sunset" height="" width="" />
     </div>
 
-    <hr className={articleStyles.hr}></hr>
+    <hr className=''></hr>
 
-    <article className={articleStyles.article}>
-      <div className="container">
-        <h2 className={articleStyles.h2}>Testing React/Nextjs and JavaScript via DOM</h2>
+    <article className='bg-gray-200 text-center'>
+      <div className="">
+        <h2 className=''>Testing React/Nextjs and JavaScript via DOM</h2>
         <Image className="ball" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
         <h3 className="pBall, h3">Magic Decision ball</h3>
         <button className={articleStyles.button} id="magic" onClick={Magic}>Ask a question and click for an answer?</button> 
 
-        <hr className={articleStyles.hr}></hr>
+        <hr className=''></hr>
 
-        <h3 className={articleStyles.h3}>Change background Colour</h3>
+        <h3 className=''>Change background Colour</h3>
         <button className={articleStyles.button} type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#D0D4E7"}>Change colour</button>
         <button className={articleStyles.button} type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#FFFFFF"}>Reset colour</button> 
       
-      <h3 className={articleStyles.sponcer}>Sponsors & Website credits : 
-      <Image className="SJsponcerLogo" src={SJsponceLogo} alt="sJs" height="32" width="32"/>
-      </h3>
+        <h3 className={articleStyles.sponcer}>Sponsors & Website credits : 
+        <Image className="SJsponcerLogo" src={SJsponceLogo} alt="sJs" height="32" width="32"/>
+        </h3>
       </div>
     </article>
 

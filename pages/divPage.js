@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import NavStyles from '../styles/Nav.module.css'
+//import NavStyles from '../styles/Nav.module.css'
 
 export default function divPage() {
     return (
@@ -8,8 +8,13 @@ export default function divPage() {
                 <title>Div Page</title>
             </Head>
             <div>
-            <h1 className={NavStyles.centerDiv}>DIV</h1> 
-            <p className={NavStyles.divP}> &rarr; hire me &larr; </p>  
+                <div className='flex h-96 w-screen justify-center items-center'>
+                {/*<h1 className={NavStyles.centerDiv}>DIV</h1> 
+                <p className={NavStyles.divP}> &rarr; hire me &larr; </p>  
+                */}     
+                    <h1 className='flex justify-center items-center text-center h-24 w-24 bg-sky-200 '>DIV</h1> 
+               {/*} <p className=''> &rarr; hire me &larr; </p> */} 
+                </div>
             </div>
         </div>
     )
