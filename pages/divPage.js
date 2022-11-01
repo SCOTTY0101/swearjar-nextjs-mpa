@@ -8,7 +8,7 @@ export default function divPage() {
                 <title>Div Page</title>
             </Head>
             <div>
-                <div className='flex h-96 w-screen justify-center items-center'>
+                <div className='flex h-screen w-screen justify-center items-center'>
                 {/*<h1 className={NavStyles.centerDiv}>DIV</h1> 
                 <p className={NavStyles.divP}> &rarr; hire me &larr; </p>  
                 */}     
