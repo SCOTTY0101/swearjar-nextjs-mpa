@@ -28,46 +28,53 @@ console.log(articles);
         <meta charSet='utf-8' />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta name='keywords' content='nextjs, react, web apps, web site, programming, front end'/>
-
       </Head>
 
-      <article className='bg-gray-200 text-center'>
-      
+      <article className='bg-slate-200 text-center'>
         <h1 className="text-4xl font-bold m-4 p-4"> Building Swearjar website with Nextjs</h1>
         <div>
-          <p className='font-bold text-2xl m-2 p-1 border-black'>My web developer portfolio.</p><span className={articleStyles.br}></span>
-        <p>Front-end website for production development testing.<span className={articleStyles.br}></span>
-        <b>Responsive Web Design is in testing mode.</b><span className={articleStyles.br}></span>
-         View current version via Github Footer link.<span className={articleStyles.br}></span>  
-        Server sponcership available with PayPal to have credits added to the website.</p>
-        {/*<span className={articleStyles.br}></span>*/}
-      
-        <div className='m-4 '>
-        <form action="https://www.paypal.com/donate" method="post" target="_top" >
-          <input type="hidden" name="business" value="E2HRYJQA2AFBJ" />
-          <input type="hidden" name="no_recurring" value="0" />
-          <input type="hidden" name="item_name" value="Website donation to help pay for server running costs." />
-          <input type="hidden" name="currency_code" value="AUD" />
-          <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif" 
-            border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-          <img alt="Donate" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />   
-        </form>
+          <p className='font-bold text-2xl m-2 p-1 border-black'>My web developer portfolio.</p>
+          <br/>
+        <p>Front-end website for production development testing. <br />
+        <b>Responsive Web Design is in testing mode.</b><br />
+         View current version via Github Footer link. </p>
+         <br /> 
+
+         <div className=''>
+           <p>Server sponcership available with PayPal to have credits added to the website.</p>      
+       
+            <form action="https://www.paypal.com/donate" method="post" target="_top" >
+              <input type="hidden" name="business" value="E2HRYJQA2AFBJ" />
+              <input type="hidden" name="no_recurring" value="0" />
+              <input type="hidden" name="item_name" value="Website donation to help pay the server running costs." />
+              <input type="hidden" name="currency_code" value="AUD" />
+              <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif" 
+                border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+              <img alt="Donate" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />   
+            </form>
         </div>
-        <span className="br"></span>
-        <p><b>Cloud hosted on AWS (Amazon Web Services).</b><span className={articleStyles.br}></span>
-        AWS Route 53 and S3 storage bucket used to run the stactic webpage.<span className={articleStyles.br}></span>
-        Running on HTTPS (SSL) secure connection on port 443.<span className={articleStyles.br}></span>
-        2022 will also see the website evolve with new software added.<span className={articleStyles.br}></span>
-        <b> Click the cloud to visit AWS console.</b><span className={articleStyles.br}></span>
-        <button className={articleStyles.button}><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer">
-        <Image className={articleStyles.awsLogo} src={awsLogo} alt="cloud" id="xs-cloud" height="48" width="48" /></a></button><span className={articleStyles.br}></span>
-        <b>Working with all things JavaScript to understand Full Stack development</b><span className={articleStyles.br}></span>
+       
+        <p>Tech information: <br />
+        Cloud hosted on AWS (Amazon Web Services). <br />
+        AWS Route 53 and S3 storage bucket used to run the stactic webpage. <br />  
+        Running on HTTPS (SSL) secure connection on port 443. <br />
+        2022 will also see the website evolve with new software added.
+        </p>
+        <br /> 
+          <div className='flex justify-center items-center'>
+              <b> Click the cloud to visit AWS console.</b>
+              <button className={articleStyles.button}><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer">
+                <Image className={articleStyles.awsLogo} src={awsLogo} alt="cloud" id="xs-cloud" height="48" width="48" /></a>
+              </button>
+          </div>
+        <br />
+        <p>
+          Working with all things JavaScript to understand Full Stack development.
         </p>
       </div>
     </article>
 
-
-    <article className='bg-gray-200 text-center'>
+    <article className='bg-slate-200 text-center mt-2'>
       <div className="">  
         <a className="a" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
         <Image className={articleStyles.reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/></a>               
@@ -84,10 +91,10 @@ console.log(articles);
       <Image src={bne} id="bne" alt="Brisbane Christmas sunset" height="" width="" />
     </div>
 
-    <hr className=''></hr>
+    <hr />
 
     <article className='bg-gray-200 text-center'>
-      <div className="">
+      <div className="my-2">
         <h2 className='font-size-lg'>Testing React/Nextjs and JavaScript via DOM</h2>
         <Image className="ball" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
         <h3 className="pBall, h3">Magic Decision ball</h3>

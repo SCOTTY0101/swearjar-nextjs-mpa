@@ -19,13 +19,13 @@ export default function Nav() {
 
                 <div>                 
                     <ul className='self-center inline-flex '>                      
-                        <li className='px-4 text-gray-700 hover:text-gray-500'>
+                        <li className='px-4 text-gray-700 hover:text-gray-500 hover:underline'>
                             <Link href='/' className=''>Home</Link>
                         </li>
-                        <li className='px-4 text-gray-700 hover:text-gray-500'>
+                        <li className='px-4 text-gray-700 hover:text-gray-500 hover:underline'>
                             <Link href='/blog'>Blog</Link>
                         </li>
-                        <li className='px-4  text-gray-700 hover:text-gray-500'>
+                        <li className='px-4  text-gray-700 hover:text-gray-500 hover:underline'>
                             <Link href='/divPage'>Div</Link>
                         </li>
                         <li className='px-4 '>
