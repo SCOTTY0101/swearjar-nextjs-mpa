@@ -68,23 +68,27 @@ console.log(articles);
               </button>
           </div>
         <br />
-        <p>
+        <p className='pb-2'>
           Working with all things JavaScript to understand Full Stack development.
         </p>
       </div>
     </article>
 
     <article className='bg-slate-200 text-center mt-2'>
-      <div className="">  
-        <a className="a" href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-        <Image className={articleStyles.reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/></a>               
-        <p><b>Website running the React UI component library and Nextjs framework. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
-        <span className={articleStyles.br}></span>
-        Powered by React/Nextjs. NodeJS(backend code) and MongoDB(database) software is in the development stage.<span className={articleStyles.br}></span>
+      <div className=""> 
+        <div className="flex mx-2 p-4 justify-center item-center"> 
+        <a className='flex justify-center item-center' href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+          <Image className={articleStyles.reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/>
+        </a>
+        </div>               
+        <p className='mb-2 p-2'><b>Website running the React UI component library and Nextjs framework. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
+        <br />
+        Powered by React/Nextjs. NodeJS(backend code) and MongoDB(database) software is in the development stage.
+        <br />
         Test Rendering: SSR (Server-Side Rending), CSR (Client-Side Rendering) and Rehydration.
-        <span className={articleStyles.br}></span>
+        <br />
         Performance Testing: TTFB (Time to First Byte), FP (First Paint) - any pixel become visible and 
-        <span className={articleStyles.br}></span> TTI (Time To Interactive) - time at which page becomes interactive.</p>
+       <br /> TTI (Time To Interactive) - time at which page becomes interactive.</p>
       </div>        
     </article>
     <div>
