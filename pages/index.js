@@ -62,10 +62,12 @@ console.log(articles);
         </p>
         <br /> 
           <div className='flex justify-center items-center'>
-              <b> Click the cloud to visit AWS console.</b>
+            <div className=' bg-sky-200 w-1/3 border-2 rounded-md border-gray-500 shadow-2xl'>
+              <b className='m-2'> Click the cloud to visit AWS console.</b>
               <button className={articleStyles.button}><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer">
                 <Image className={articleStyles.awsLogo} src={awsLogo} alt="cloud" id="xs-cloud" height="48" width="48" /></a>
               </button>
+            </div>
           </div>
         <br />
         <p className='pb-2'>
