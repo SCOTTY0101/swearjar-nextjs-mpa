@@ -40,9 +40,9 @@ console.log(articles);
          View current version via Github Footer link. </p>
          <br /> 
 
-         <div className=''>
+        
            <p>Server sponcership available with PayPal to have credits added to the website.</p>      
-       
+           <div className='flex justify-center items-center'>
             <form action="https://www.paypal.com/donate" method="post" target="_top" >
               <input type="hidden" name="business" value="E2HRYJQA2AFBJ" />
               <input type="hidden" name="no_recurring" value="0" />
@@ -58,7 +58,7 @@ console.log(articles);
         Cloud hosted on AWS (Amazon Web Services). <br />
         AWS Route 53 and S3 storage bucket used to run the stactic webpage. <br />  
         Running on HTTPS (SSL) secure connection on port 443. <br />
-        2022 will also see the website evolve with new software added.
+        In 2022, new features will be added and tested.
         </p>
         <br /> 
           <div className='flex justify-center items-center'>
