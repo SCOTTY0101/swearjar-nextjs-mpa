@@ -42,8 +42,8 @@ console.log(articles);
 
         
            <p>Server sponcership available with PayPal to have credits added to the website.</p>      
-           <div className='flex justify-center items-center'>
-            <form action="https://www.paypal.com/donate" method="post" target="_top" >
+           <div className='flex justify-center items-center m-2 p-2'>
+            <form className='flex justify-center items-center' action="https://www.paypal.com/donate" method="post" target="_top" >
               <input type="hidden" name="business" value="E2HRYJQA2AFBJ" />
               <input type="hidden" name="no_recurring" value="0" />
               <input type="hidden" name="item_name" value="Website donation to help pay the server running costs." />
@@ -52,9 +52,9 @@ console.log(articles);
                 border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
               <img alt="Donate" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />   
             </form>
-        </div>
+          </div>
        
-        <p>Tech information: <br />
+        <p className='p-2 m-2'>Tech information: <br />
         Cloud hosted on AWS (Amazon Web Services). <br />
         AWS Route 53 and S3 storage bucket used to run the stactic webpage. <br />  
         Running on HTTPS (SSL) secure connection on port 443. <br />
@@ -62,8 +62,8 @@ console.log(articles);
         </p>
         <br /> 
           <div className='flex justify-center items-center'>
-            <div className=' bg-sky-200 w-1/3 border-2 rounded-md border-gray-500 shadow-2xl'>
-              <b className='m-2'> Click the cloud to visit AWS console.</b>
+            <div className=' bg-sky-100 w-1/4 border-2 rounded-md border-gray-500 shadow-2xl'>
+              <b className='m-2'> Click the cloud below to visit AWS console.</b>
               <button className={articleStyles.button}><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer">
                 <Image className={articleStyles.awsLogo} src={awsLogo} alt="cloud" id="xs-cloud" height="48" width="48" /></a>
               </button>

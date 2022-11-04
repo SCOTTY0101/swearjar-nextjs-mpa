@@ -9,7 +9,7 @@ export default function blog() {
             <title>Blog Page</title>
             </Head> 
             <div className='h-screen  bg-slate-200'>
-              <h1 className='flex justify-center items-center text-4xl py-2'>Swearjar Blog Page</h1>
+              <h1 className='flex justify-center items-center text-4xl py-2 min-w-min'>Swearjar Blog Page</h1>
                 
                     <article className='grid grid-cols-2  grid-rows-2 gap-4 p-4'>
 
