@@ -12,7 +12,7 @@ export default function divPage() {
                 {/*<h1 className={NavStyles.centerDiv}>DIV</h1> 
                 <p className={NavStyles.divP}> &rarr; hire me &larr; </p>  
                 */}     
-                    <h1 className='flex justify-center items-center text-center h-24 w-24 bg-sky-200 '>DIV</h1> 
+                    <h1 className='flex justify-center items-center text-center shadow-xl rounded-xl h-24 w-24 bg-sky-200 '>DIV</h1> 
                {/*} <p className=''> &rarr; hire me &larr; </p> */} 
                 </div>
             </div>

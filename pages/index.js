@@ -54,7 +54,7 @@ console.log(articles);
             </form>
           </div>
        
-        <p className='p-2 m-2'>Tech information: <br />
+        <p className='p-2 m-2 font-bold'>Tech information: <br />
         Cloud hosted on AWS (Amazon Web Services). <br />
         AWS Route 53 and S3 storage bucket used to run the stactic webpage. <br />  
         Running on HTTPS (SSL) secure connection on port 443. <br />
@@ -85,7 +85,7 @@ console.log(articles);
         </div>               
         <p className='mb-2 p-2'><b>Website running the React UI component library and Nextjs framework. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
         <br />
-        Powered by React/Nextjs. NodeJS(backend code) and MongoDB(database) software is in the development stage.
+        Powered by React/Nextjs and Tailwind. NodeJS(backend code) and MongoDB(database) software is in the development stage.
         <br />
         Test Rendering: SSR (Server-Side Rending), CSR (Client-Side Rendering) and Rehydration.
         <br />
@@ -101,19 +101,26 @@ console.log(articles);
 
     <article className='bg-gray-200 text-center'>
       <div className="my-2">
-        <h2 className='font-size-lg'>
+        <h2 className='text-2xl m-4'>
         Testing React/Nextjs and JavaScript via DOM
         </h2>
-        <Image className="ball" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
-        <h3 className="pBall, h3">Magic Decision ball</h3>
-        <button 
-        className='bg-white' id="magic" onClick={Magic}>Ask a question and click for an answer?</button> 
+        <div className='flex justify-center h-64'>
+          <div className='block bg-white rounded-lg shadow-lg w-1/2 p-4'>
+          <Image className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
+          <h3 className="pBall, h3">Magic Decision ball</h3>
+            <button 
+            className='bg-slate-200 border-2 border-slate-700 rounded-xl p-2 m-2' id="magic" onClick={Magic}>
+            Ask a question and click for an answer?</button>
+          </div> 
+        </div>
 
-        <hr className=''></hr>
-      
-        <h3 className=''>Sponsors & Website credits : 
-          <Image src={SJsponceLogo} alt="sJs" height="32" width="32"/>
-        </h3>
+      <div className='flex justify-center item-center w-full'>
+          <div className='flex items-center'>
+            <p className=' flex  text-md m-4'>Sponsors & Website credits :</p>
+              <Image src={SJsponceLogo} alt="sJs" height="32" width="32"/>
+          </div>
+      </div>
+
       </div>
     </article>
 
