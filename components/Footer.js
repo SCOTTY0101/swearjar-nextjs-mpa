@@ -19,7 +19,7 @@ export default function footer() {
             <p className="text-base px-6"> &copy; SwearJarSoftware 2019-2022. </p>
               <Image className={footerStyle.sjLogo} src={SJnavLogo} alt="sJs" width='16' height='16'/>  
           </div>
-
+          
         </div>
       </footer>
   )

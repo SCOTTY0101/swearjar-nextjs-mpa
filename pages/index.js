@@ -62,9 +62,10 @@ console.log(articles);
         </p>
         <br /> 
           <div className='flex justify-center items-center'>
-            <div className=' bg-sky-100 w-1/4 border-1 rounded-md border-gray-500 shadow-2xl'>
-              <b className='m-2'> Click the cloud below to visit AWS console.</b>
-              <button className={articleStyles.button}><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer">
+            <div className=' bg-sky-100 w-1/4 border-1 rounded-2xl border-gray-500 shadow-2xl'>
+              <b className='m-2'> Click on the cloud to visit AWS console.</b>
+              <button ><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer"
+                className='hover:opacity-70'>
                 <Image className={articleStyles.awsLogo} src={awsLogo} alt="cloud" id="xs-cloud" height="48" width="48" /></a>
               </button>
             </div>
@@ -104,10 +105,10 @@ console.log(articles);
         <h2 className='text-2xl m-4'>
         Testing React/Nextjs and JavaScript via DOM
         </h2>
-        <div className='flex justify-center h-64'>
+        <div className='flex justify-center h-64 md:h-44 lg:h-44 xl:h-44 2xl:h-44'>
           <div className='block bg-white rounded-lg shadow-lg w-1/2 p-4'>
           <Image className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
-          <h3 className="pBall, h3">Magic Decision ball</h3>
+          <h3 className="">Magic Decision ball</h3>
             <button 
             className='bg-slate-200 border-2 border-slate-700 rounded-xl p-2 m-2' id="magic" onClick={Magic}>
             Ask a question and click for an answer?</button>
@@ -116,7 +117,7 @@ console.log(articles);
 
       <div className='flex justify-center item-center w-full'>
           <div className='flex items-center'>
-            <p className=' flex  text-md m-4'>Sponsors & Website credits :</p>
+            <p className=' flex text-md m-4'>Sponsors & Website credits :</p>
               <Image src={SJsponceLogo} alt="sJs" height="32" width="32"/>
           </div>
       </div>
