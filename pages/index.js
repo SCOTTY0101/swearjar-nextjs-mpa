@@ -32,7 +32,7 @@ console.log(articles);
 
       <article className='bg-slate-200 text-center'>
         <h1 className="text-4xl font-bold m-4 p-4"> Building Swearjar website with Nextjs</h1>
-        <div>
+        <div className='overflow-auto border-2 border-gray-700'>
           <p className='font-bold text-2xl m-2 p-1 border-black'>My web developer portfolio.</p>
           <br/>
         <p>Front-end website for production development testing. <br />
@@ -62,7 +62,7 @@ console.log(articles);
         </p>
         <br /> 
           <div className='flex justify-center items-center'>
-            <div className=' bg-sky-100 w-1/4 border-2 rounded-md border-gray-500 shadow-2xl'>
+            <div className=' bg-sky-100 w-1/4 border-1 rounded-md border-gray-500 shadow-2xl'>
               <b className='m-2'> Click the cloud below to visit AWS console.</b>
               <button className={articleStyles.button}><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer">
                 <Image className={articleStyles.awsLogo} src={awsLogo} alt="cloud" id="xs-cloud" height="48" width="48" /></a>
@@ -78,7 +78,7 @@ console.log(articles);
 
     <article className='bg-slate-200 text-center mt-2'>
       <div className=""> 
-        <div className="flex mx-2 p-4 justify-center item-center"> 
+        <div className="flex mx-2 p-4 justify-center item-center sm:text-left"> 
         <a className='flex justify-center item-center' href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           <Image className={articleStyles.reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/>
         </a>
@@ -101,19 +101,18 @@ console.log(articles);
 
     <article className='bg-gray-200 text-center'>
       <div className="my-2">
-        <h2 className='font-size-lg'>Testing React/Nextjs and JavaScript via DOM</h2>
+        <h2 className='font-size-lg'>
+        Testing React/Nextjs and JavaScript via DOM
+        </h2>
         <Image className="ball" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
         <h3 className="pBall, h3">Magic Decision ball</h3>
-        <button className={articleStyles.button} id="magic" onClick={Magic}>Ask a question and click for an answer?</button> 
+        <button 
+        className='bg-white' id="magic" onClick={Magic}>Ask a question and click for an answer?</button> 
 
         <hr className=''></hr>
-
-        <h3 className=''>Change background Colour</h3>
-        <button className={articleStyles.button} type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#D0D4E7"}>Change colour</button>
-        <button className={articleStyles.button} type="button" onClick={() => document.querySelector('body').style.backgroundColor = "#FFFFFF"}>Reset colour</button> 
       
-        <h3 className={articleStyles.sponcer}>Sponsors & Website credits : 
-        <Image className="SJsponcerLogo" src={SJsponceLogo} alt="sJs" height="32" width="32"/>
+        <h3 className=''>Sponsors & Website credits : 
+          <Image src={SJsponceLogo} alt="sJs" height="32" width="32"/>
         </h3>
       </div>
     </article>
