@@ -54,12 +54,17 @@ console.log(articles);
             </form>
           </div>
        
-        <p className='p-2 m-2 font-bold'>Tech information: <br />
-        Cloud hosted on AWS (Amazon Web Services). <br />
-        AWS Route 53 and S3 storage bucket used to run the stactic webpage. <br />  
-        Running on HTTPS (SSL) secure connection on port 443. <br />
-        In 2022, new features will be added and tested.
-        </p>
+        <p className='p-2 m-2 font-bold'>Tech information:</p>
+
+        <div>
+        <ul className='list-disc'> 
+          <li> Cloud hosted on AWS (Amazon Web Services).</li> 
+          <li>AWS Route 53 and S3 storage bucket used to run the stactic webpage.</li>   
+          <li>Running on HTTPS (SSL) secure connection on port 443.</li> 
+          <li>In 2022, new features will be added and tested.</li>
+        </ul>
+        </div>
+
         <br /> 
           <div className='flex justify-center items-center'>
             <div className=' bg-sky-100 w-1/4 border-1 rounded-2xl border-gray-500 shadow-2xl'>

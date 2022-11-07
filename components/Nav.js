@@ -18,7 +18,7 @@ export default function Nav() {
                     </div>
 
                 <div>                 
-                    <ul className='self-center inline-flex '>                      
+                    <ul className='self-center inline-flex'>                      
                         <li className='px-2 md:px-4 text-gray-700 hover:text-gray-500 hover:underline'>
                             <Link href='/' className=''>Home</Link>
                         </li>
