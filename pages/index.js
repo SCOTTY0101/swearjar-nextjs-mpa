@@ -33,7 +33,7 @@ console.log(articles);
       <article className='bg-slate-200 text-center'>
         <h1 className="text-4xl font-bold m-4 p-4"> Building Swearjar website with Nextjs</h1>
         <div className='overflow-auto border-2 border-gray-700'>
-          <p className='font-bold text-2xl m-2 p-1 border-black'>My web developer portfolio.</p>
+          <p className='font-bold text-2xl m-2 p-1 border-black'>My web developer portfolio</p>
           <br/>
         <p>Front-end website for production development testing. <br />
         <b>Responsive Web Design is in testing mode.</b><br />
@@ -89,7 +89,7 @@ console.log(articles);
           <Image className={articleStyles.reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/>
         </a>
         </div>               
-        <p className='mb-2 p-2'><b>Website running the React UI component library and Nextjs framework. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
+        <p className='mb-2 p-2 leading-relaxed'><b>Website running the React UI component library and Nextjs framework. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
         <br />
         Powered by React/Nextjs and Tailwind. NodeJS(backend code) and MongoDB(database) software is in the development stage.
         <br />
