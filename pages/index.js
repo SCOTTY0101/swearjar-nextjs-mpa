@@ -7,6 +7,8 @@ import reactLogo from '../public/Images/reactImg.ico'
 import ball8Logo from '../public/Images/ball.png'
 import SJsponceLogo from '../public/Images/favicon-32x32.png'
 import Magic from '../pages/magicBall.ts'
+import nextLogo from '../public/Images/next.png'
+import tailwindLogo from '../public/Images/tailwindLogo.svg'
 //import ids from './article/[id]/index.js'
 
 export default function Home({}) {
@@ -76,17 +78,21 @@ console.log(articles);
             </div>
           </div>
         <br />
-        <p className='pb-2'>
-          Working with all things JavaScript to understand Full Stack development.
-        </p>
+       
       </div>
     </article>
 
     <article className='bg-slate-200 text-center mt-2'>
       <div className=""> 
-        <div className="flex mx-2 p-4 justify-center item-center sm:text-left"> 
-        <a className='flex justify-center item-center' href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+        <div className="flex mx-2 p-4 justify-around item-center sm:text-left"> 
+        <a className='flex justify-center item-center hover:opacity-70' href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
           <Image className={articleStyles.reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/>
+        </a>
+        <a className='hover:opacity-70' href='https://nextjs.org' target="_blank" rel="noopener noreferrer">
+        <Image className='m-12' src={nextLogo}  alt="Nextjs logo" height="64" width="64"/>
+        </a>
+        <a className='hover:opacity-70' href='https://tailwindcss.com' target="_blank" rel="noopener noreferrer">
+        <Image className='m-12' src={tailwindLogo}  alt="Tailwind logo" height="64" width="64"/>
         </a>
         </div>               
         <p className='mb-2 p-2 leading-relaxed'><b>Website running the React UI component library and Nextjs framework. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
@@ -97,6 +103,9 @@ console.log(articles);
         <br />
         Performance Testing: TTFB (Time to First Byte), FP (First Paint) - any pixel become visible and 
        <br /> TTI (Time To Interactive) - time at which page becomes interactive.</p>
+       <p className='pb-2'>
+          Working with all things JavaScript to understand Full Stack development.
+        </p>
       </div>        
     </article>
     <div>
