@@ -85,15 +85,15 @@ console.log(articles);
     <article className='bg-slate-200 text-center mt-2'>
       <div className=""> 
         <div className="flex mx-2 p-4 justify-around item-center sm:text-left"> 
-        <a className='flex justify-center item-center hover:opacity-70' href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
-          <Image className={articleStyles.reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/>
-        </a>
-        <a className='hover:opacity-70' href='https://nextjs.org' target="_blank" rel="noopener noreferrer">
+          <a className='flex justify-center item-center hover:opacity-70' href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
+            <Image className={articleStyles.reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/>
+          </a>
+        <a className='border-x-2 px-6 md:px-32 border-slate-400 hover:opacity-70' href='https://nextjs.org' target="_blank" rel="noopener noreferrer">
         <Image className='m-12' src={nextLogo}  alt="Nextjs logo" height="64" width="64"/>
         </a>
-        <a className='hover:opacity-70' href='https://tailwindcss.com' target="_blank" rel="noopener noreferrer">
-        <Image className='m-12' src={tailwindLogo}  alt="Tailwind logo" height="64" width="64"/>
-        </a>
+          <a className='hover:opacity-70' href='https://tailwindcss.com' target="_blank" rel="noopener noreferrer">
+          <Image className='m-12' src={tailwindLogo}  alt="Tailwind logo" height="64" width="64"/>
+          </a>
         </div>               
         <p className='mb-2 p-2 leading-relaxed'><b>Website running the React UI component library and Nextjs framework. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
         <br />
