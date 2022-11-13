@@ -84,18 +84,21 @@ console.log(articles);
 
     <article className='bg-slate-200 text-center mt-2'>
       <div className=""> 
-        <div className="flex mx-2 p-4 justify-around item-center sm:text-left"> 
+        <div className="flex bg-slate-300 px-4 py-2 shadow-lg justify-around item-center sm:text-left"> 
           <a className='flex justify-center item-center hover:opacity-70' href="https://reactjs.org" target="_blank" rel="noopener noreferrer">
             <Image className={articleStyles.reactLogo} src={reactLogo}  alt="React logo" height="64" width="64"/>
           </a>
+
         <a className='border-x-2 px-6 md:px-32 border-slate-400 hover:opacity-70' href='https://nextjs.org' target="_blank" rel="noopener noreferrer">
-        <Image className='m-12' src={nextLogo}  alt="Nextjs logo" height="64" width="64"/>
+        <Image className='' src={nextLogo}  alt="Nextjs logo" height="64" width="64"/>
         </a>
+
           <a className='hover:opacity-70' href='https://tailwindcss.com' target="_blank" rel="noopener noreferrer">
-          <Image className='m-12' src={tailwindLogo}  alt="Tailwind logo" height="64" width="64"/>
+          <Image className='' src={tailwindLogo}  alt="Tailwind logo" height="64" width="64"/>
           </a>
+
         </div>               
-        <p className='mb-2 p-2 leading-relaxed'><b>Website running the React UI component library and Nextjs framework. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
+        <p className='mb-2 p-10 leading-relaxed'><b>Website running the React UI component library and Nextjs framework. Originally built with HTML, CSS(Flexbox) and JavaScript.</b>
         <br />
         Powered by React/Nextjs and Tailwind. NodeJS(backend code) and MongoDB(database) software is in the development stage.
         <br />
@@ -103,9 +106,6 @@ console.log(articles);
         <br />
         Performance Testing: TTFB (Time to First Byte), FP (First Paint) - any pixel become visible and 
        <br /> TTI (Time To Interactive) - time at which page becomes interactive.</p>
-       <p className='pb-2'>
-          Working with all things JavaScript to understand Full Stack development.
-        </p>
       </div>        
     </article>
     <div>
@@ -124,7 +124,7 @@ console.log(articles);
           <Image className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
           <h3 className="">Magic Decision ball</h3>
             <button 
-            className='bg-slate-200 border-2 border-slate-700 rounded-xl p-2 m-2' id="magic" onClick={Magic}>
+            className='bg-slate-200 border-2 border-slate-700 rounded-xl p-2 ' id="magic" onClick={Magic}>
             Ask a question and click for an answer?</button>
           </div> 
         </div>

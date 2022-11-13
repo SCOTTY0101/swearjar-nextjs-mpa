@@ -13,7 +13,7 @@ export default function Nav() {
         <div>
             <nav className='w-full  bg-sky-100 shadow-lg border-gray-400 border-b-2'>
               <div className="container flex flex-wrap h-24 md:h-12 lg:h-12 justify-between items-center mx-auto">
-                    <div className='flex justify-center items-center'>
+                    <div className='flex pl-2 justify-center items-center'>
                         <Image  src={SJnavLogo} alt="sJs" width='36' height='36'/>     
                     </div>
 
