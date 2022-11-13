@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import articleStyles from '../styles/Article.module.css'
+import Time from './dateTime.js'
 import bne from '../public/Images/SouthBank30-12-21.jpeg'
 import awsLogo from '../public/Images/cloud.svg'
 import reactLogo from '../public/Images/reactImg.ico'
@@ -9,6 +10,7 @@ import SJsponceLogo from '../public/Images/favicon-32x32.png'
 import Magic from '../pages/magicBall.ts'
 import nextLogo from '../public/Images/next.png'
 import tailwindLogo from '../public/Images/tailwindLogo.svg'
+//import { time } from 'console'
 //import ids from './article/[id]/index.js'
 
 export default function Home({}) {
@@ -35,9 +37,9 @@ console.log(articles);
       <article className='bg-slate-200 text-center'>
         <h1 className="text-4xl font-bold m-4 p-4"> Building Swearjar website with Nextjs</h1>
         <div className='overflow-auto border-2 border-gray-700'>
-          <p className='font-bold text-2xl m-2 p-1 border-black'>My web developer portfolio</p>
+          <p className='font-bold text-3xl m-2 p-1 border-black'>My web developer portfolio</p>
           <br/>
-        <p>Front-end website for production development testing. <br />
+        <p>Front-end website for production software development and testing. <br />
         <b>Responsive Web Design is in testing mode.</b><br />
          View current version via Github Footer link. </p>
          <br /> 
@@ -114,7 +116,7 @@ console.log(articles);
 
     <hr />
 
-    <article className='bg-gray-200 text-center'>
+    <article className='bg-gray-200 text-center border-b-2 border-slate-400'>
       <div className="my-2">
         <h2 className='text-2xl m-4'>
         Testing React/Nextjs and JavaScript via DOM
@@ -124,21 +126,22 @@ console.log(articles);
           <Image className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
           <h3 className="">Magic Decision ball</h3>
             <button 
-            className='bg-slate-200 border-2 border-slate-700 rounded-xl p-2 ' id="magic" onClick={Magic}>
+            className='bg-slate-200 border-2 border-slate-700 rounded-xl px-2 ' id="magic" onClick={Magic}>
             Ask a question and click for an answer?</button>
           </div> 
         </div>
 
-      <div className='flex justify-center item-center w-full'>
-          <div className='flex items-center'>
-            <p className=' flex text-md m-4'>Sponsors & Website credits :</p>
-              <Image src={SJsponceLogo} alt="sJs" height="32" width="32"/>
-          </div>
-      </div>
+        <div className='flex justify-center item-center w-full'>
+            <div className='flex items-center'>
+              <p className=' flex text-md m-4'>Sponsors & Website credits :</p>
+                <Image src={SJsponceLogo} alt="sJs" height="32" width="32"/>
+            </div>
+        </div>
+          <Time />
+        </div>
 
-      </div>
+      <a href='#top' className='text-blue-400 '>Top of page</a>
     </article>
-
     </div>
   )
 }

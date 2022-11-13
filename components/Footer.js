@@ -7,7 +7,7 @@ import SJnavLogo from '../public/Images/favicon.ico'
 export default function footer() {
 
   return (
-      <footer className='w-screen bg-gray-300 text-center flex justify-center'>
+      <footer className='w-screen bg-blue-100 text-center flex justify-center'>
         <div>
 
           <p className='text-base pt-2'>Click the GitHub icon to view code.</p>
