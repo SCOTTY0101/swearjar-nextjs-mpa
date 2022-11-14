@@ -22,13 +22,13 @@ class Time extends React.Component {
         return(
             <div>
                 <h3>Date and Time with React Class</h3>
-                <div className='flex justify-center'>
-                    <div className=" bg-sky-50 ">
-                        <p className="p-2 border-y-2"> Date: {this.state.date.toLocaleDateString()}</p>
-                        <p className="p-2 border-y-2">Time: {this.state.date.toLocaleTimeString()}</p>
-                        <p className="p-2 border-y-2">Hours: {this.state.date.getHours()}</p>
-                        <p className="p-2 border-y-2">Minutes: {this.state.date.getMinutes()}</p>
-                        <p className="p-2 border-y-2">Seconds: {this.state.date.getSeconds()}</p>
+                <div className=''>
+                    <div className="">
+                        <div className=""> Date: {this.state.date.toLocaleDateString()}</div>
+                        <div className="">Time: {this.state.date.toLocaleTimeString()}</div>
+                        <div className="">Hours: {this.state.date.getHours()}</div>
+                        <div className="">Minutes: {this.state.date.getMinutes()}</div>
+                        <div className="">Seconds: {this.state.date.getSeconds()}</div>
                     </div>
                 </div>
 

@@ -137,7 +137,7 @@ console.log(articles);
                 <Image src={SJsponceLogo} alt="sJs" height="32" width="32"/>
             </div>
         </div>
-          <Time />
+          {/*<Time /> */}
         </div>
 
       <a href='#top' className='text-blue-400 '>Top of page</a>
