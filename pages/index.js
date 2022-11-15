@@ -140,7 +140,7 @@ console.log(articles);
           {/*<Time /> */}
         </div>
 
-      <a href='#top' className='text-blue-400 '>Top of page</a>
+      <a href='#top' className='text-blue-400 hover:text-blue-300'>Top of page</a>
     </article>
     </div>
   )
