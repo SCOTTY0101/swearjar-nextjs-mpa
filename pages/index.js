@@ -59,15 +59,11 @@ console.log(articles);
           </div>
        
         <p className='p-2 m-2 font-bold'>Tech information:</p>
-
-        <div>
-        <ul className='list-disc'> 
-          <li> Cloud hosted on AWS (Amazon Web Services).</li> 
-          <li>AWS Route 53 and S3 storage bucket used to run the stactic webpage.</li>   
-          <li>Running on HTTPS (SSL) secure connection on port 443.</li> 
-          <li>In 2022, new features will be added and tested.</li>
-        </ul>
-        </div>
+            <p> Cloud hosted on AWS (Amazon Web Services).</p> 
+            <p>AWS Route 53 and S3 storage bucket used to run the stactic webpage.</p>   
+            <p>Running on HTTPS (SSL) secure connection on port 443.</p> 
+            <p>In 2022, new features will be added and tested.</p>
+       
 
         <br /> 
           <div className='flex justify-center items-center'>
@@ -123,7 +119,7 @@ console.log(articles);
         </h2>
         <div className='flex justify-center h-64 md:h-44 lg:h-44 xl:h-44 2xl:h-44'>
           <div className='block bg-white rounded-lg shadow-lg w-1/2 p-4'>
-          <Image className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
+            <Image className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
           <h3 className="">Magic Decision ball</h3>
             <button 
             className='bg-slate-200 border-2 border-slate-700 rounded-xl px-2 ' id="magic" onClick={Magic}>
@@ -138,6 +134,7 @@ console.log(articles);
             </div>
         </div>
           {/*<Time /> */}
+          
         </div>
 
       <a href='#top' className='text-blue-400 hover:text-blue-300'>Top of page</a>
