@@ -67,9 +67,9 @@ console.log(articles);
 
         <br /> 
           <div className='flex justify-center items-center'>
-            <div className=' bg-sky-100 w-1/4 border-1 rounded-2xl border-gray-500 shadow-2xl'>
+            <div className='flex-col bg-sky-100 w-1/4 border-1 rounded-2xl border-gray-500 shadow-2xl'>
               <b className='m-2'> Click on the cloud to visit AWS console.</b>
-              <button ><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer"
+              <button className='hover:opacity-60'><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer"
                 className='hover:opacity-70'>
                 <Image className={articleStyles.awsLogo} src={awsLogo} alt="cloud" id="xs-cloud" height="48" width="48" /></a>
               </button>
@@ -117,8 +117,8 @@ console.log(articles);
         <h2 className='text-2xl m-4'>
         Testing React/Nextjs and JavaScript via DOM
         </h2>
-        <div className='flex justify-center h-64 md:h-44 lg:h-44 xl:h-44 2xl:h-44'>
-          <div className='block bg-white rounded-lg shadow-lg w-1/2 p-4'>
+        <div className='flex justify-center h-68 md:h-44 lg:h-44 xl:h-44 2xl:h-44'>
+          <div className='block bg-white rounded-lg shadow-lg w-1/3 p-4'>
             <Image className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
           <h3 className="">Magic Decision ball</h3>
             <button 
