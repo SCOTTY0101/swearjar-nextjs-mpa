@@ -14,7 +14,9 @@ export default function Nav() {
             <nav className='w-full  bg-sky-100 shadow-lg border-gray-400 border-b-2'>
               <div className="container flex flex-wrap h-24 md:h-12 lg:h-12 justify-between items-center mx-auto">
                     <div className='flex pl-2 justify-center items-center'>
-                        <Image  src={SJnavLogo} alt="sJs" width='36' height='36'/>     
+                    <Link href='/' className=''>
+                        <Image  src={SJnavLogo} alt="sJs" width='36' height='36'/>
+                    </Link>
                     </div>
 
                 <div>                 
@@ -29,13 +31,13 @@ export default function Nav() {
                             <Link href='/divPage'>Div</Link>
                         </li>
                         <li className='px-2 md:px-4'>
-                            <a className='flex justify-center items-center hover:opacity-50'
+                            <a className='flex justify-center items-center hover:opacity-70'
                                 href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">
                                     <Image src={linkedinLogo} alt="LinkedIn logo"/>
                             </a>
                         </li>
                         <li className='px-2 md:px-4'>
-                            <a className='flex justify-center items-center hover:opacity-50'
+                            <a className='flex justify-center items-center hover:opacity-70'
                                 href="http://www.github.com/SCOTTY0101" target="_blank" rel="noopener noreferrer">
                                     <Image id="gitIcon" src={gitIogo} alt="github click link"/>
                             </a>
