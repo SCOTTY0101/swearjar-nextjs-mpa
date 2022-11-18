@@ -3,6 +3,7 @@ import Image from 'next/image'
 import gitIogo from '../public/Images/github.svg';
 import linkedinLogo from '../public/Images/linkedin.svg';
 import SJnavLogo from '../public/Images/favicon.ico';
+import twitterLogo from '../public/Images/twitter copy.svg'
 //import styles from '../styles/Nav.module.css'
 
 //className={styles.nav}
@@ -30,6 +31,13 @@ export default function Nav() {
                         <li className='px-2 md:px-4  text-gray-700 hover:text-gray-500 hover:underline'>
                             <Link href='/divPage'>Div</Link>
                         </li>
+
+                        <li className='px-2 md:px-4'>
+                            <a href="https://twitter.com/AlanGeorge_BNE" target="_blank" rel="noopener noreferrer" title="twitter icons">
+                                <Image src={twitterLogo} alt="twitter logo"></Image>
+                            </a>
+                        </li>
+
                         <li className='px-2 md:px-4'>
                             <a className='flex justify-center items-center hover:opacity-70'
                                 href="http://www.linkedin.com/in/alan-george-829706a3" target="_blank" rel="noopener noreferrer">

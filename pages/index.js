@@ -68,7 +68,7 @@ console.log(articles);
 
         <br /> 
           <div className='flex justify-center items-center'>
-            <div className='flex-col bg-sky-100 w-1/4 border-1 rounded-2xl border-gray-500 shadow-2xl'>
+            <div className='flex-col bg-sky-100 w-1/4 border-2 rounded-2xl border-gray-500 shadow-2xl'>
               <b className='m-2'> Click on the cloud to visit AWS console.</b>
               <button className='hover:opacity-60'><a href="http://www.aws.amazon.com/console" target="_blank" rel="noopener noreferrer"
                 className='hover:opacity-70'>
