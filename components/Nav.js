@@ -15,7 +15,7 @@ export default function Nav() {
             <nav className='w-full  bg-sky-100 shadow-lg border-gray-400 border-b-2'>
               <div className="container flex flex-wrap h-24 md:h-12 lg:h-12 justify-between items-center mx-auto">
                     <div className='flex pl-2 justify-center items-center'>
-                    <Link href='/' className=''>
+                    <Link href='/'>
                         <Image  src={SJnavLogo} alt="sJs" width='36' height='36'/>
                     </Link>
                     </div>
@@ -23,7 +23,7 @@ export default function Nav() {
                 <div>                 
                     <ul className='self-center inline-flex'>                      
                         <li className='px-2 md:px-4 text-gray-700 hover:text-gray-500 hover:underline'>
-                            <Link href='/' className=''>Home</Link>
+                            <Link href='/'>Home</Link>
                         </li>
                         <li className='px-2 md:px-4 text-gray-700 hover:text-gray-500 hover:underline'>
                             <Link href='/blog'>Blog</Link>
