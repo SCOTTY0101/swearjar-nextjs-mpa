@@ -43,21 +43,7 @@ console.log(articles);
         <p>Front-end website for production software development and testing. <br />
         <b>Responsive Web Design is in testing mode.</b><br />
          View current version via Github Footer link. </p>
-         <br /> 
-
-        
-           <p>Server sponcership available with PayPal to have credits added to the website.</p>      
-           <div className='flex justify-center items-center m-2 p-2'>
-            <form className='flex justify-center items-center' action="https://www.paypal.com/donate" method="post" target="_top" >
-              <input type="hidden" name="business" value="E2HRYJQA2AFBJ" />
-              <input type="hidden" name="no_recurring" value="0" />
-              <input type="hidden" name="item_name" value="Website donation to help pay the server running costs." />
-              <input type="hidden" name="currency_code" value="AUD" />
-              <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif" 
-                border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
-              <img alt="Donate" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />   
-            </form>
-          </div>
+         <br />
        
         <p className='p-2 m-2 font-bold'>Tech information:</p>
             <p> Cloud hosted on AWS (Amazon Web Services).</p> 
@@ -119,7 +105,7 @@ console.log(articles);
         Testing React/Nextjs and JavaScript via DOM
         </h2>
         <div className='flex justify-center h-68 md:h-44 lg:h-44 xl:h-44 2xl:h-44'>
-          <div className='block bg-white rounded-lg shadow-lg w-1/3 p-4'>
+          <div className='block bg-white rounded-lg shadow-lg w-1/2 md:w-1/3 lg:w-1/3 p-4'>
             <Image className="" src={ball8Logo}  alt="magic decision ball" height="64" width="64" />
           <h3 className="">Magic Decision ball</h3>
             <button 
@@ -128,9 +114,22 @@ console.log(articles);
           </div> 
         </div>
 
+        <p className='m-2 p-2'>Server sponcership available with PayPal to have credits added to the website.</p>      
+           <div className='flex justify-center items-center m-2 p-2'>
+            <form className='flex justify-center items-center' action="https://www.paypal.com/donate" method="post" target="_top" >
+              <input type="hidden" name="business" value="E2HRYJQA2AFBJ" />
+              <input type="hidden" name="no_recurring" value="0" />
+              <input type="hidden" name="item_name" value="Website donation to help pay the server running costs." />
+              <input type="hidden" name="currency_code" value="AUD" />
+              <input type="image" src="https://www.paypalobjects.com/en_AU/i/btn/btn_donate_SM.gif" 
+                border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Donate with PayPal button" />
+              <img alt="Donate" border="0" src="https://www.paypal.com/en_AU/i/scr/pixel.gif" width="1" height="1" />   
+            </form>
+          </div>
+
         <div className='flex justify-center item-center w-full'>
             <div className='flex items-center'>
-              <p className=' flex text-md m-4'>Sponsors & Website credits :</p>
+              <p className=' flex text-md m-2'>Sponsors & Website credits :</p>
                 <Image src={SJsponceLogo} alt="sJs" height="32" width="32"/>
             </div>
         </div>
