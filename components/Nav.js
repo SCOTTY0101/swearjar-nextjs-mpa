@@ -33,7 +33,7 @@ export default function Nav() {
                         </li>
 
                         <li className='px-2 md:px-4'>
-                            <a href="https://twitter.com/AlanGeorge_BNE" target="_blank" rel="noopener noreferrer" title="twitter icons">
+                            <a  className='flex justify-center items-center hover:opacity-70' href="https://twitter.com/AlanGeorge_BNE" target="_blank" rel="noopener noreferrer" title="twitter icons">
                                 <Image src={twitterLogo} alt="twitter logo"></Image>
                             </a>
                         </li>
