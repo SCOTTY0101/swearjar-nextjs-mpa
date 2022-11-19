@@ -17,7 +17,7 @@ export default function blog() {
                         <p className='p-2'>
                         A self-taught, Front-end developer, who works part-time on my own projects or open source.
                         In 2018, I was working for a company and got interested in how hardware and software interact together. 
-                        That was an introduction to Arduino {"Uno's "} and The C language. 
+                        That was an introduction to Arduino Uno and The C language. 
                         After six months of learning to code, I came across JavaScript, HTML and CSS. In 2019 I started writing Front-end code.
                         My LinkedIn and Github links are in the Navbar.
                         </p>
@@ -50,7 +50,9 @@ export default function blog() {
                         </p>
                         </div>
                     </article>
+                   <div className='h-44'></div>
                    
+
                </div>
         </div>
     
